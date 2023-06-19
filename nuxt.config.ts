@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // devtools: { enabled: true },
+  build: {
+    transpile: ["tslib"], // Add 'tslib' to the transpile array because I had an error when building the app
+  },
   modules: [
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
