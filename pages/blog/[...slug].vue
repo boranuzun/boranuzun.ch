@@ -7,7 +7,7 @@ const { data } = await useAsyncData(`content-${path}`, () => {
 </script>
 
 <template>
-  <ContentRenderer :value="data" class="prose my-10 mx-auto max-w-7xl" />
+  <ContentRenderer :value="data" class="prose my-10 mx-auto max-w-7xl text-justify" />
   <div class="my-8">
     <a
       v-for="tag in data.tags"

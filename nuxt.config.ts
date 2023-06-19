@@ -47,7 +47,7 @@ export default defineNuxtConfig({
   apollo: {
     clients: {
       default: {
-        tokenName: 'github-token',
+        tokenName: "github-token",
         httpEndpoint: "https://api.github.com/graphql",
       },
     },

@@ -33,7 +33,7 @@ const { data } = await useAsyncQuery(query);
 </script>
 
 <template>
-  <h1 class="text-3xl my-8">Projects</h1>
+  <h1 class="text-3xl font-bold my-8">Projects</h1>
   <p class="text-lg mb-8">Here are some of my projects on GitHub.</p>
 
   <section class="grid grid-cols-2 gap-10">
@@ -49,15 +49,15 @@ const { data } = await useAsyncQuery(query);
       </a>
       <p>{{ project.description }}</p>
       <div class="mt-4">
-        <Icon name="fontisto:star" size="1.1rem" class="text-indigo-700" />
+        <Icon name="solar:star-bold" size="1.1rem" class="text-indigo-700 mb-1" />
         Stars: {{ project.stargazers.totalCount }}
         <Icon
-          name="system-uicons:branch"
+          name="mdi:directions-fork"
           size="1.1rem"
-          class="text-indigo-800"
+          class="text-indigo-800 ml-8 mb-1"
         />
         Forks: {{ project.forks.totalCount }}
-        <Icon name="system-uicons:eye" size="1.1rem" class="text-indigo-700" />
+        <Icon name="fluent:eye-12-filled" size="1.1rem" class="text-indigo-700 ml-8 mb-1" />
         Watchers: {{ project.watchers.totalCount }}
       </div>
     </div>
