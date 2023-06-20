@@ -19,14 +19,15 @@ const links = [
 </script>
 
 <template>
-  <footer class="bg-gray-800">
+  <footer>
+    <hr class="border-gray-200 my-3" />
     <section
-      class="mx-auto max-w-7xl px-2 sm:px-4 lg:py-2 text-gray-300 flex flex-row"
+      class="mx-auto max-w-7xl px-2 sm:px-4 lg:py-2 text-gray-800 flex flex-row"
     >
       <p class="flex-1 mt-3">Boran UZUN - 2023</p>
       <div class="flex flex-row justify-center gap-4 mb-4 mt-3">
         <a v-for="link in links" :key="link.name" :href="link.href">
-          <Icon :name="link.icon" size="1.5rem" class="text-gray-300" />
+          <Icon :name="link.icon" size="1.5rem" class="text-gray-800" />
         </a>
       </div>
     </section>
