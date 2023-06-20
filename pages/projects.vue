@@ -36,7 +36,7 @@ const { data } = await useAsyncQuery(query);
   <h1 class="text-3xl font-bold my-8">Projects</h1>
   <p class="text-lg mb-8">Here are some of my projects on GitHub.</p>
 
-  <section class="grid grid-cols-2 gap-10">
+  <section class="grid md:grid-cols-2 gap-10">
     <div
       v-for="project in data?.viewer.repositories.nodes"
       :key="project.id"

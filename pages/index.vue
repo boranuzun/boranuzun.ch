@@ -12,7 +12,7 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
       <span style="display: inline-block; margin-right: 5px"
         ><img src="../assets/images/hi.gif" width="55px"
       /></span>
-      <span style="display: inline-block; margin-right: 15px">,</span>
+      <!-- <span style="display: inline-block; margin-right: 15px">,</span> -->
       <span style="display: inline-block">I'm Boran </span>
     </h1>
     <p class="text-base text-gray-900 mt-2 ml-1 mb-5 italic">

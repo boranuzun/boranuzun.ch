@@ -88,7 +88,7 @@ const navigation = [
   { name: "Blog", href: "/blog", current: route.name.includes("blog") },
   { name: "Projects", href: "/projects", current: route.name === "projects" },
   { name: "Uses", href: "/uses", current: route.name === "uses" },
-  //   { name: "About", href: "/about", current: route.name === "about" },
+  { name: "About", href: "/about", current: route.name === "about" },
   //   { name: "Contact", href: "/contact", current: route.name === "contact" },
 ];
 </script>
