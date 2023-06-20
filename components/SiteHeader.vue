@@ -1,11 +1,35 @@
+<script setup>
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuItems,
+} from "@headlessui/vue";
+import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
+
+const route = useRoute();
+
+const navigation = [
+  { name: "Home", href: "/", current: route.name === "index" },
+  { name: "Blog", href: "/blog", current: route.name.includes("blog") },
+  { name: "Projects", href: "/projects", current: route.name === "projects" },
+  { name: "Uses", href: "/uses", current: route.name === "uses" },
+  { name: "About", href: "/about", current: route.name === "about" },
+  //   { name: "Contact", href: "/contact", current: route.name === "contact" },
+];
+</script>
+
 <template>
-  <Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
+  <Disclosure as="nav" class="bg-transparent shadow-md" v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
           <DisclosureButton
-            class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            class="inline-flex items-center justify-center rounded p-2 text-gray-800 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
           >
             <span class="sr-only">Open main menu</span>
             <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
@@ -36,8 +60,8 @@
                 :class="[
                   item.current
                     ? 'bg-gray-900 text-white'
-                    : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                  'rounded-md px-3 py-2 text-sm font-medium',
+                    : 'text-gray-800 hover:bg-gray-700 hover:text-white',
+                  'rounded px-3 py-2 text-sm font-medium',
                 ]"
                 :aria-current="item.current ? 'page' : undefined"
                 >{{ item.name }}</a
@@ -58,8 +82,8 @@
           :class="[
             item.current
               ? 'bg-gray-900 text-white'
-              : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-            'block rounded-md px-3 py-2 text-base font-medium',
+              : 'text-gray-800 hover:bg-gray-700 hover:text-white',
+            'block rounded px-3 py-2 text-base font-medium',
           ]"
           :aria-current="item.current ? 'page' : undefined"
           >{{ item.name }}</DisclosureButton
@@ -68,27 +92,3 @@
     </DisclosurePanel>
   </Disclosure>
 </template>
-
-<script setup>
-import {
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
-} from "@headlessui/vue";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/vue/24/outline";
-
-const route = useRoute();
-
-const navigation = [
-  { name: "Home", href: "/", current: route.name === "index" },
-  { name: "Blog", href: "/blog", current: route.name.includes("blog") },
-  { name: "Projects", href: "/projects", current: route.name === "projects" },
-  { name: "Uses", href: "/uses", current: route.name === "uses" },
-  { name: "About", href: "/about", current: route.name === "about" },
-  //   { name: "Contact", href: "/contact", current: route.name === "contact" },
-];
-</script>

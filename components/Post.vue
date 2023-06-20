@@ -4,7 +4,7 @@ const props = defineProps(['posts'])
 
 <template>
   <div v-for="post in props.posts" :key="post.slug"
-    class="bg-white rounded-lg shadow-md overflow-hidden hover:opacity-90">
+    class="bg-white rounded shadow-md overflow-hidden hover:opacity-90">
     <NuxtLink :to="post._path">
       <img :src="`/images/blog/${post.cover}`" alt="Blog Post Cover Image" class="w-full h-48 object-cover">
     </NuxtLink>
@@ -12,7 +12,7 @@ const props = defineProps(['posts'])
       <h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
       <p class="text-gray-700 mb-4">{{ post.description }}</p>
       <NuxtLink :to="post._path"
-        class="inline-block bg-indigo-500 hover:bg-indigo-700 text-white py-2 px-4 rounded float-right mb-8">Read More
+        class="inline-block bg-indigo-800 hover:bg-indigo-600 text-white py-2 px-4 rounded float-right mb-8">Read More
       </NuxtLink>
     </div>
   </div>

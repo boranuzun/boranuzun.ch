@@ -17,6 +17,11 @@
     </li>
   </ul>
 
+  <h2 class="text-2xl font-bold mt-8 mb-2">Hardware</h2>
+  <ul class="list-disc">
+    <li class="ml-8 py-1">MacBook Pro 14" M1</li>
+  </ul>
+
   <h2 class="text-2xl font-bold mt-8 mb-2">Editor and Terminal</h2>
   <ul class="list-disc">
     <li class="ml-8 py-1">
@@ -27,12 +32,8 @@
     </li>
     <li class="ml-8 py-1">
       The theme I am currently using everywhere is
-      <a
-        href="https://draculatheme.com/"
-        aria-label="Dracula Theme by Zeno Rocha"
-        >Dracula</a
-      >
-      by Zeno Rocha.
+      <a href="https://draculatheme.com/" aria-label="Dracula Theme">Dracula</a>
+      .
     </li>
     <li class="ml-8 py-1">
       <a href="https://www.iterm2.com/" aria-label="iTerm">iTerm2</a> is my
