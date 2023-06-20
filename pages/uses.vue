@@ -19,7 +19,9 @@
 
   <h2 class="text-2xl font-bold mt-8 mb-2">Hardware</h2>
   <ul class="list-disc">
-    <li class="ml-8 py-1">MacBook Pro 14" M1</li>
+    <li class="ml-8 py-1">
+      MacBook Pro (14", 2021) - Best laptop I've ever owned.
+    </li>
   </ul>
 
   <h2 class="text-2xl font-bold mt-8 mb-2">Editor and Terminal</h2>
@@ -28,16 +30,19 @@
       <a href="https://code.visualstudio.com/" aria-label="Visual Studio Code"
         >Visual Studio Code</a
       >
-      is my current editor and I use it for pretty much everything.
+      - I use it for pretty much everything.
     </li>
     <li class="ml-8 py-1">
-      The theme I am currently using everywhere is
+      <a href="https://www.iterm2.com/" aria-label="iTerm">iTerm2</a> - Not much
+      to say here. I use it as my terminal emulator.
+    </li>
+    <li class="ml-8 py-1">
+      <a href="https://fig.io/" aria-label="Fig">Fig</a> - Offers autocomplete
+      for the terminal and is a great tool for productivity.
+    </li>
+    <li class="ml-8 py-1">
       <a href="https://draculatheme.com/" aria-label="Dracula Theme">Dracula</a>
-      .
-    </li>
-    <li class="ml-8 py-1">
-      <a href="https://www.iterm2.com/" aria-label="iTerm">iTerm2</a> is my
-      Terminal
+      - This is my theme of choice for VS Code.
     </li>
   </ul>
 

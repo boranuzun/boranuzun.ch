@@ -34,7 +34,9 @@ const { data } = await useAsyncQuery(query);
 
 <template>
   <h1 class="text-3xl font-bold my-8">Projects</h1>
-  <p class="text-lg mb-8">Here are some of my projects on GitHub.</p>
+  <p class="text-lg mb-8">
+    Below, you can find a collection of my projects hosted on GitHub.
+  </p>
 
   <section class="grid md:grid-cols-2 gap-10">
     <div
@@ -49,7 +51,11 @@ const { data } = await useAsyncQuery(query);
       </a>
       <p>{{ project.description }}</p>
       <div class="mt-4">
-        <Icon name="solar:star-bold" size="1.1rem" class="text-indigo-700 mb-1" />
+        <Icon
+          name="solar:star-bold"
+          size="1.1rem"
+          class="text-indigo-700 mb-1"
+        />
         Stars: {{ project.stargazers.totalCount }}
         <Icon
           name="mdi:directions-fork"
@@ -57,7 +63,11 @@ const { data } = await useAsyncQuery(query);
           class="text-indigo-800 ml-8 mb-1"
         />
         Forks: {{ project.forks.totalCount }}
-        <Icon name="fluent:eye-12-filled" size="1.1rem" class="text-indigo-700 ml-8 mb-1" />
+        <Icon
+          name="fluent:eye-12-filled"
+          size="1.1rem"
+          class="text-indigo-700 ml-8 mb-1"
+        />
         Watchers: {{ project.watchers.totalCount }}
       </div>
     </div>
