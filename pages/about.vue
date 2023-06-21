@@ -1,3 +1,12 @@
+<script setup>
+useHead({
+  title: 'About // Boran Uzun',
+  meta: [
+    { name: 'description', content: 'This is the résumé of Boran Uzun, showcasing his experience, education, skills, and accomplishments' }
+  ],
+})
+</script>
+
 <template>
   <SiteBackground />
   <h1 class="text-3xl font-bold my-8">Résumé</h1>

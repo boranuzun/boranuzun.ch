@@ -1,3 +1,10 @@
+<script setup>
+useHead({
+  title: "Uses // Boran Uzun",
+  meta: [{ name: "description", content: "Explore the tools, technologies, and resources used by Boran Uzun in his projects and workflows." }],
+});
+</script>
+
 <template>
   <h1 class="text-3xl font-bold my-8">Uses</h1>
   <p class="text-lg text-justify">
