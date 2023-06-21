@@ -49,7 +49,7 @@ const { data } = await useAsyncQuery(query);
     <div
       v-for="project in data?.viewer.repositories.nodes"
       :key="project.id"
-      class="p-8 shadow-lg my-4 rounded hover:bg-gray-50"
+      class="p-8 shadow-lg my-4 rounded hover:bg-gray-50 ring-indigo-800 ring-1 transition ease-in-out hover:-translate-y-1 hover:scale-103 duration-300"
     >
       <a :href="project.url" target="_blank">
         <h2 class="text-2xl text-indigo-800 font-semibold mb-2 hover:underline">

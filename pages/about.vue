@@ -46,10 +46,14 @@ useHead({
                 class="text-gray-600 uppercase font-bold tracking-wider mb-2"
                 >Skills</span
               >
-              <ul>
-                <li class="mb-2">Python</li>
-                <li class="mb-2">Java</li>
-                <li class="mb-2">HTML</li>
+              <ul class="space-y-1 list-disc">
+                <li class="ml-8">Python</li>
+                <li class="ml-8">Java</li>
+                <li class="ml-8">HTML</li>
+                <li class="ml-8">Vue</li>
+                <li class="ml-8">PL/SQL</li>
+                <li class="ml-8">Git</li>
+                <li class="ml-8">UML</li>
               </ul>
             </div>
           </div>
@@ -58,15 +62,18 @@ useHead({
           <div class="bg-white shadow rounded-lg p-6">
             <h2 class="text-xl font-bold mb-4">About Me</h2>
             <p class="text-gray-700 text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              finibus est vitae tortor ullamcorper, ut vestibulum velit
-              convallis. Aenean posuere risus non velit egestas suscipit. Nunc
-              finibus vel ante id euismod. Vestibulum ante ipsum primis in
-              faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam
-              erat volutpat. Nulla vulputate pharetra tellus, in luctus risus
-              rhoncus id.
+              I am a dedicated and motivated IT student with a passion for
+              coding and problem-solving. With a strong foundation in Python,
+              Java, UML, and Git I am equipped with the
+              technical skills necessary to develop innovative software
+              solutions. I thrive in collaborative environments and enjoy
+              tackling complex challenges to deliver high-quality results. I am
+              constantly seeking opportunities to expand my knowledge and stay
+              up-to-date with the latest technologies in the industry. With my
+              strong attention to detail and commitment to excellence, I am
+              confident in my ability to contribute to the success of any
+              project or team.
             </p>
-
             <h3 class="font-semibold text-center mt-3 -mb-2">Find me on</h3>
             <div class="flex justify-center items-center gap-6 my-6">
               <Socials />
@@ -228,9 +235,7 @@ useHead({
             <div class="flex justify-between my-2">
               <span class="text-gray-600 font-bold">English</span>
               <p>
-                <span class="text-gray-600"
-                  >Professional working proficiency</span
-                >
+                <span class="text-gray-600">Advanced proficiency</span>
               </p>
             </div>
             <div class="flex justify-between my-2 mb-10">
@@ -245,13 +250,13 @@ useHead({
             <div class="flex justify-between my-2">
               <span class="text-gray-600 font-bold">Reading</span>
               <p>
-                <span class="text-gray-600">Manhwa, Manga, Webtoon</span>
+                <span class="text-gray-600">Manhwa, Manga</span>
               </p>
             </div>
             <div class="flex justify-between my-2">
               <span class="text-gray-600 font-bold">Video games</span>
               <p>
-                <span class="text-gray-600">Rocket League, Rust, Osu</span>
+                <span class="text-gray-600">RL, Rust, Osu</span>
               </p>
             </div>
             <div class="flex justify-between my-2">
