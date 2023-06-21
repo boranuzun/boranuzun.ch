@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Blog // Boran Uzun',
+  title: 'Blog | Boran Uzun',
   meta: [
     { name: 'description', content: 'Explore the blog of Boran Uzun, where he shares insights, tips, and experiences related to his interests in web development, technology, and more.' }
   ],

@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "About // Boran Uzun",
+  title: "About | Boran Uzun",
   meta: [
     {
       name: "description",

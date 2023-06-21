@@ -10,8 +10,12 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
   <section>
     <h1 class="text-5xl font-bold mt-20">
       <span style="display: inline-block; margin-right: 5px">Hi there</span>
-      <span style="display: inline-block" class="animate-wave ml-2">👋🏼</span>
-      <span style="display: inline-block" class="ml-4">I'm Boran </span>
+      <span
+        style="display: inline-block; transform-origin: 90% 70%;"
+        class="animate-[wave_2s_ease-in-out_3] hover:animate-wave cursor-pointer ml-2 mr-4"
+        >👋🏼</span
+      >
+      <span style="display: inline-block">I'm Boran </span>
     </h1>
     <p class="text-base text-gray-900 mt-2 ml-1 mb-5 italic">
       IT Student @ <a href="https://www.hesge.ch/heg/">HEG</a>

@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Uses // Boran Uzun",
+  title: "Uses | Boran Uzun",
   meta: [{ name: "description", content: "Explore the tools, technologies, and resources used by Boran Uzun in his projects and workflows." }],
 });
 </script>

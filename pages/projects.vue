@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Projects // Boran Uzun',
+  title: 'Projects | Boran Uzun',
   meta: [
     { name: 'description', content: 'Discover the projects created by Boran Uzun, showcasing his skills and expertise in programming and technology.' }
   ],
