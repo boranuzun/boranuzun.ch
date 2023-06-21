@@ -64,15 +64,14 @@ useHead({
             <p class="text-gray-700 text-justify">
               I am a dedicated and motivated IT student with a passion for
               coding and problem-solving. With a strong foundation in Python,
-              Java, UML, and Git I am equipped with the
-              technical skills necessary to develop innovative software
-              solutions. I thrive in collaborative environments and enjoy
-              tackling complex challenges to deliver high-quality results. I am
-              constantly seeking opportunities to expand my knowledge and stay
-              up-to-date with the latest technologies in the industry. With my
-              strong attention to detail and commitment to excellence, I am
-              confident in my ability to contribute to the success of any
-              project or team.
+              Java, UML, and Git I am equipped with the technical skills
+              necessary to develop innovative software solutions. I thrive in
+              collaborative environments and enjoy tackling complex challenges
+              to deliver high-quality results. I am constantly seeking
+              opportunities to expand my knowledge and stay up-to-date with the
+              latest technologies in the industry. With my strong attention to
+              detail and commitment to excellence, I am confident in my ability
+              to contribute to the success of any project or team.
             </p>
             <h3 class="font-semibold text-center mt-3 -mb-2">Find me on</h3>
             <div class="flex justify-center items-center gap-6 my-6">
@@ -82,9 +81,11 @@ useHead({
             <h2 class="text-xl font-bold mt-6 mb-4">Experience</h2>
             <div class="mb-10">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold"
+                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
                   >Inventory clerk @
-                  <a href="https://www.denner.ch">Denner</a></span
+                  <a href="https://www.denner.ch" class="underline"
+                    >Denner</a
+                  ></span
                 >
                 <p>
                   <span class="text-gray-600">Apr 2022 - Present</span>
@@ -105,9 +106,11 @@ useHead({
             </div>
             <div class="mb-10">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold"
+                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
                   >Pionnier d'ondes dirigées @
-                  <a href="https://www.vtg.admin.ch/en/home.html"
+                  <a
+                    href="https://www.vtg.admin.ch/en/home.html"
+                    class="underline"
                     >Swiss Armed Forces</a
                   ></span
                 >
@@ -126,9 +129,9 @@ useHead({
             </div>
             <div class="mb-10">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold"
+                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
                   >Cashier - Student Job @
-                  <a href="https://www.coop.ch">Coop</a></span
+                  <a href="https://www.coop.ch" class="underline">Coop</a></span
                 >
                 <p>
                   <span class="text-gray-600">Jun 2019 - Dec 2019</span>
@@ -163,9 +166,9 @@ useHead({
             </div>
             <div class="mb-10">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold"
+                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
                   >HR Intern @
-                  <a href="https://www.hug.ch/"
+                  <a href="https://www.hug.ch/" class="underline"
                     >Hôpitaux Universitaires de Genève</a
                   ></span
                 >
@@ -195,9 +198,11 @@ useHead({
             <h2 class="text-xl font-bold mt-6 mb-4">Education</h2>
             <div class="mb-2">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold"
+                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
                   >Bachelor of Science in Business IT @
-                  <a href="https://www.hesge.ch/heg">HEG</a></span
+                  <a href="https://www.hesge.ch/heg" class="underline"
+                    >HEG</a
+                  ></span
                 >
                 <p>
                   <span class="text-gray-600">Sep 2021 - Present</span>
@@ -206,9 +211,11 @@ useHead({
             </div>
             <div class="mb-10">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold"
+                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
                   >CFC + Maturité professionnelle commerciale @
-                  <a href="https://edu.ge.ch/secondaire2/stite/accueil"
+                  <a
+                    href="https://edu.ge.ch/secondaire2/stite/accueil"
+                    class="underline"
                     >ECCG Aimée-Stitelmann</a
                   ></span
                 >
