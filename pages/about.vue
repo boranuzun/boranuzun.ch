@@ -20,7 +20,7 @@
                   >Contact</a
                 >
                 <a
-                  href="resume.pdf"
+                  href="../resume.pdf"
                   download="Boran_Uzun_Resume"
                   class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded"
                   >Resume</a
@@ -95,9 +95,14 @@
                   <span class="text-gray-600">Jan 2020 - May 2020</span>
                 </p>
               </div>
-              <ul class="list-disc mt-2">
-                <li class="ml-8 py-1">Lorem ipsum</li>
-              </ul>
+              <p class="mx-8 mt-2 py-1 text-justify">
+                As part of my recruit school, I served as a pionnier d'ondes
+                dirigées. I gained valuable experience installing communications
+                networks in remote locations, using directed-wave systems to
+                transmit signals through the air. This experience has enabled me
+                to develop advanced technical skills and help ensure reliable
+                connectivity, even in the most demanding environments.
+              </p>
             </div>
             <div class="mb-10">
               <div class="flex justify-between">
@@ -168,7 +173,7 @@
 
             <hr class="my-6" />
             <h2 class="text-xl font-bold mt-6 mb-4">Education</h2>
-            <div class="mb-6">
+            <div class="mb-2">
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >Bachelor of Science in Business IT @
@@ -183,7 +188,9 @@
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >CFC + Maturité professionnelle commerciale @
-                  <a href="">ECCG Aimée-Stitelmann</a></span
+                  <a href="https://edu.ge.ch/secondaire2/stite/accueil"
+                    >ECCG Aimée-Stitelmann</a
+                  ></span
                 >
                 <p>
                   <span class="text-gray-600">Aug 2014 - Aug 2018</span>
@@ -237,9 +244,7 @@
             <div class="flex justify-between my-2">
               <span class="text-gray-600 font-bold">TV Shows / Movies</span>
               <p>
-                <span class="text-gray-600"
-                  >GOT, Dexter, SnK</span
-                >
+                <span class="text-gray-600">GOT, Dexter, SnK</span>
               </p>
             </div>
           </div>
