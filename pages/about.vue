@@ -20,8 +20,7 @@
                   >Contact</a
                 >
                 <a
-                  href="../resume.pdf"
-                  download="Boran_Uzun_Resume"
+                  href="https://kdrive.infomaniak.com/app/share/654236/44a53e47-7537-448a-8735-7d5888dff26e"
                   class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded"
                   >Resume</a
                 >
