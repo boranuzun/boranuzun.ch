@@ -13,7 +13,7 @@ This is a paragraph.
 
 This is another paragraph.
 
-![Earth from Space](/images/blog/nasa-Q1p7bh3SHj8-unsplash.jpg)
+![Earth from Space](/images/blog/galaxy-3608029_640.jpg)
 
 ## This is a heading 2
 
