@@ -1,10 +1,14 @@
 <script setup>
 useHead({
-  title: 'About // Boran Uzun',
+  title: "About // Boran Uzun",
   meta: [
-    { name: 'description', content: 'This is the résumé of Boran Uzun, showcasing his experience, education, skills, and accomplishments' }
+    {
+      name: "description",
+      content:
+        "This is the résumé of Boran Uzun, showcasing his experience, education, skills, and accomplishments",
+    },
   ],
-})
+});
 </script>
 
 <template>
@@ -30,6 +34,7 @@ useHead({
                 >
                 <a
                   href="https://kdrive.infomaniak.com/app/share/654236/44a53e47-7537-448a-8735-7d5888dff26e"
+                  target="_blank"
                   class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded"
                   >Resume</a
                 >
