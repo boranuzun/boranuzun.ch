@@ -4,13 +4,6 @@ const { path } = useRoute();
 const { data } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne();
 });
-
-useHead({
-  title: data.title,
-  meta: [
-    { name: 'description', content: data.description }
-  ],
-})
 </script>
 
 <template>
