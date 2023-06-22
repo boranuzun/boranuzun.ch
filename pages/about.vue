@@ -19,8 +19,10 @@ useHead({
         <div class="col-span-4 sm:col-span-3">
           <div class="bg-white shadow rounded-lg p-6">
             <div class="flex flex-col items-center">
-              <img
-                src="../assets/images/pp.png"
+              <nuxt-img
+                format="webp"
+                src="../public/images/pp.png"
+                alt="profilePic"
                 class="w-32 h-32 bg-white rounded-full mb-4 shrink-0"
               />
               <h1 class="text-xl font-bold">Boran Uzun</h1>
@@ -86,7 +88,7 @@ useHead({
                   >Inventory clerk @
                   <a href="https://www.denner.ch" aria-label="Denner's website"
                     ><span class="underline">Denner</span>
-                    <Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
+                    <Icon name="mingcute:arrow-right-up-fill" size="1.1em" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Apr 2022 - Present</span>
@@ -109,9 +111,13 @@ useHead({
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >Pionnier d'ondes dirigées @
-                  <a href="https://www.vtg.admin.ch/en/home.html" aria-label="Swiss Armed Forces' website"
+                  <a
+                    href="https://www.vtg.admin.ch/en/home.html"
+                    aria-label="Swiss Armed Forces' website"
                     ><span class="underline">Swiss Armed Forces</span
-                    ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
+                    ><Icon
+                      name="mingcute:arrow-right-up-fill"
+                      size="1.1em" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Jan 2020 - May 2020</span>
@@ -132,7 +138,9 @@ useHead({
                   >Cashier - Student Job @
                   <a href="https://www.coop.ch" aria-label="Coop's website"
                     ><span class="underline">Coop</span
-                    ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
+                    ><Icon
+                      name="mingcute:arrow-right-up-fill"
+                      size="1.1em" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Jun 2019 - Dec 2019</span>
@@ -172,7 +180,9 @@ useHead({
                   <a href="https://www.hug.ch/" aria-label="HUG's website"
                     ><span class="underline"
                       >Hôpitaux Universitaires de Genève</span
-                    ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
+                    ><Icon
+                      name="mingcute:arrow-right-up-fill"
+                      size="1.1em" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Aug 2017 - Aug 2018</span>
@@ -204,7 +214,9 @@ useHead({
                   >Bachelor of Science in Business IT @
                   <a href="https://www.hesge.ch/heg" aria-label="HEG's website"
                     ><span class="underline">HEG</span
-                    ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
+                    ><Icon
+                      name="mingcute:arrow-right-up-fill"
+                      size="1.1em" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Sep 2021 - Present</span>
@@ -216,10 +228,13 @@ useHead({
                 <span class="text-gray-600 font-bold"
                   >CFC + Maturité professionnelle commerciale @
                   <a
-                    href="https://edu.ge.ch/secondaire2/stite/accueil" aria-label="ECCG Aimée-Stitelmann's website"
+                    href="https://edu.ge.ch/secondaire2/stite/accueil"
+                    aria-label="ECCG Aimée-Stitelmann's website"
                     class="underline"
                     ><span class="underline">ECCG Aimée-Stitelmann</span
-                    ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
+                    ><Icon
+                      name="mingcute:arrow-right-up-fill"
+                      size="1.1em" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Aug 2014 - Aug 2018</span>
