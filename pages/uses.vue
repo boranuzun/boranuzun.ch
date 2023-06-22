@@ -17,10 +17,10 @@ useHead({
 
   <h2 class="text-2xl font-bold mt-8 mb-2">This Website</h2>
   <ul class="list-disc space-y-1">
-    <li class="ml-8"><a href="https://vuejs.org/">Vue 3</a></li>
-    <li class="ml-8"><a href="https://nuxt.com/">Nuxt 3</a></li>
+    <li class="ml-8"><a href="https://vuejs.org/" aria-label="Vue 3">Vue 3</a></li>
+    <li class="ml-8"><a href="https://nuxt.com/" aria-label="Nuxt 3">Nuxt 3</a></li>
     <li class="ml-8">
-      <a href="https://tailwindcss.com/">Tailwind CSS</a>
+      <a href="https://tailwindcss.com/" aria-label="Tailwind CSS">Tailwind CSS</a>
     </li>
   </ul>
 
