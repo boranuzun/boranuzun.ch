@@ -19,8 +19,13 @@ useHead({
         <div class="col-span-4 sm:col-span-3">
           <div class="bg-white shadow rounded-lg p-6">
             <div class="flex flex-col items-center">
-              <nuxt-img
+              <!-- <nuxt-img
                 format="webp"
+                src="../public/images/pp.png"
+                alt="profilePic"
+                class="w-32 h-32 bg-white rounded-full mb-4 shrink-0"
+              /> -->
+              <img
                 src="../public/images/pp.png"
                 alt="profilePic"
                 class="w-32 h-32 bg-white rounded-full mb-4 shrink-0"

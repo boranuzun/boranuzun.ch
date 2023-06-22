@@ -16,8 +16,12 @@ const formatDate = (date) => {
     class="bg-white rounded shadow-md overflow-hidden hover:opacity-90"
   >
     <NuxtLink :to="post._path">
-      <nuxt-img
+      <!-- <nuxt-img
         format="webp"
+        :src="`/images/blog/${post.cover}`"
+        alt="Blog Post Cover Image"
+        class="w-full h-48 object-cover"/> -->
+        <img
         :src="`/images/blog/${post.cover}`"
         alt="Blog Post Cover Image"
         class="w-full h-48 object-cover"/>
