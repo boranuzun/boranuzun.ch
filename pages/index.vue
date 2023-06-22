@@ -20,7 +20,7 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
     <p class="text-base text-gray-900 mt-2 ml-1 mb-5 italic">
       IT Student @
       <a href="https://www.hesge.ch/heg/" class="font-bold underline"
-        >HEG<Icon name="↗︎"
+        >HEG<Icon name="mingcute:arrow-right-up-fill"
       /></a>
     </p>
   </section>
@@ -29,7 +29,8 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
       <p class="text-lg py-2">
         I'm a passionate second-year Business IT student at
         <a href="https://www.hesge.ch/heg/" class="font-bold underline"
-          >Haute école de gestion de Genève<Icon name="↗︎" /></a
+          >Haute école de gestion de Genève<Icon
+            name="mingcute:arrow-right-up-fill" /></a
         >, where I've gained a diverse set of skills. Through my academic
         journey, I've honed my abilities in Python, Java, UML and Git.
       </p>

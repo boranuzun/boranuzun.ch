@@ -84,9 +84,9 @@ useHead({
                 <span class="text-gray-600 font-bold"
                   >Inventory clerk @
                   <a href="https://www.denner.ch"
-                    ><span class="underline">Denner</span> <Icon name="↗︎"/></a
-                  ></span
-                >
+                    ><span class="underline">Denner</span>
+                    <Icon name="mingcute:arrow-right-up-fill" /></a
+                ></span>
                 <p>
                   <span class="text-gray-600">Apr 2022 - Present</span>
                 </p>
@@ -106,14 +106,12 @@ useHead({
             </div>
             <div class="mb-10">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
+                <span class="text-gray-600 font-bold"
                   >Pionnier d'ondes dirigées @
-                  <a
-                    href="https://www.vtg.admin.ch/en/home.html"
-                    class="underline"
-                    >Swiss Armed Forces</a
-                  ></span
-                >
+                  <a href="https://www.vtg.admin.ch/en/home.html"
+                    ><span class="underline">Swiss Armed Forces</span
+                    ><Icon name="mingcute:arrow-right-up-fill" /></a
+                ></span>
                 <p>
                   <span class="text-gray-600">Jan 2020 - May 2020</span>
                 </p>
@@ -129,10 +127,12 @@ useHead({
             </div>
             <div class="mb-10">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
+                <span class="text-gray-600 font-bold"
                   >Cashier - Student Job @
-                  <a href="https://www.coop.ch" class="underline">Coop</a></span
-                >
+                  <a href="https://www.coop.ch"
+                    ><span class="underline">Coop</span
+                    ><Icon name="mingcute:arrow-right-up-fill" /></a
+                ></span>
                 <p>
                   <span class="text-gray-600">Jun 2019 - Dec 2019</span>
                 </p>
@@ -166,12 +166,13 @@ useHead({
             </div>
             <div class="mb-10">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
+                <span class="text-gray-600 font-bold"
                   >HR Intern @
-                  <a href="https://www.hug.ch/" class="underline"
-                    >Hôpitaux Universitaires de Genève</a
-                  ></span
-                >
+                  <a href="https://www.hug.ch/"
+                    ><span class="underline"
+                      >Hôpitaux Universitaires de Genève</span
+                    ><Icon name="mingcute:arrow-right-up-fill" /></a
+                ></span>
                 <p>
                   <span class="text-gray-600">Aug 2017 - Aug 2018</span>
                 </p>
@@ -198,12 +199,12 @@ useHead({
             <h2 class="text-xl font-bold mt-6 mb-4">Education</h2>
             <div class="mb-2">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
+                <span class="text-gray-600 font-bold"
                   >Bachelor of Science in Business IT @
-                  <a href="https://www.hesge.ch/heg" class="underline"
-                    >HEG</a
-                  ></span
-                >
+                  <a href="https://www.hesge.ch/heg"
+                    ><span class="underline">HEG</span
+                    ><Icon name="mingcute:arrow-right-up-fill" /></a
+                ></span>
                 <p>
                   <span class="text-gray-600">Sep 2021 - Present</span>
                 </p>
@@ -211,14 +212,14 @@ useHead({
             </div>
             <div class="mb-10">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
+                <span class="text-gray-600 font-bold"
                   >CFC + Maturité professionnelle commerciale @
                   <a
                     href="https://edu.ge.ch/secondaire2/stite/accueil"
                     class="underline"
-                    >ECCG Aimée-Stitelmann</a
-                  ></span
-                >
+                    ><span class="underline">ECCG Aimée-Stitelmann</span
+                    ><Icon name="mingcute:arrow-right-up-fill" /></a
+                ></span>
                 <p>
                   <span class="text-gray-600">Aug 2014 - Aug 2018</span>
                 </p>
