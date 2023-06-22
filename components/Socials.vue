@@ -28,11 +28,11 @@ const links = [
     v-for="link in links"
     :key="link.name"
     :href="link.href"
+    :aria-label="link.name"
     class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
   >
     <Icon
       :name="link.icon"
-      :aria-label="link.name"
       size="1.5rem"
       class="text-gray-800"
     />
