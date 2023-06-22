@@ -28,11 +28,13 @@ useHead({
               <div class="mt-6 flex flex-wrap gap-4 justify-center">
                 <a
                   href="mailto:boran.u3@gmail.com"
+                  aria-label="Email of Boran Uzun"
                   class="bg-indigo-800 hover:bg-indigo-600 text-white py-2 px-4 rounded"
                   >Contact</a
                 >
                 <a
                   href="https://kdrive.infomaniak.com/app/share/654236/44a53e47-7537-448a-8735-7d5888dff26e"
+                  aria-label="Resume of Boran Uzun"
                   target="_blank"
                   class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded"
                   >Resume</a
@@ -82,7 +84,7 @@ useHead({
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >Inventory clerk @
-                  <a href="https://www.denner.ch"
+                  <a href="https://www.denner.ch" aria-label="Denner's website"
                     ><span class="underline">Denner</span>
                     <Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
                 ></span>
@@ -107,7 +109,7 @@ useHead({
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >Pionnier d'ondes dirigées @
-                  <a href="https://www.vtg.admin.ch/en/home.html"
+                  <a href="https://www.vtg.admin.ch/en/home.html" aria-label="Swiss Armed Forces' website"
                     ><span class="underline">Swiss Armed Forces</span
                     ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
                 ></span>
@@ -128,7 +130,7 @@ useHead({
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >Cashier - Student Job @
-                  <a href="https://www.coop.ch"
+                  <a href="https://www.coop.ch" aria-label="Coop's website"
                     ><span class="underline">Coop</span
                     ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
                 ></span>
@@ -167,7 +169,7 @@ useHead({
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >HR Intern @
-                  <a href="https://www.hug.ch/"
+                  <a href="https://www.hug.ch/" aria-label="HUG's website"
                     ><span class="underline"
                       >Hôpitaux Universitaires de Genève</span
                     ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
@@ -200,7 +202,7 @@ useHead({
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >Bachelor of Science in Business IT @
-                  <a href="https://www.hesge.ch/heg"
+                  <a href="https://www.hesge.ch/heg" aria-label="HEG's website"
                     ><span class="underline">HEG</span
                     ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
                 ></span>
@@ -214,7 +216,7 @@ useHead({
                 <span class="text-gray-600 font-bold"
                   >CFC + Maturité professionnelle commerciale @
                   <a
-                    href="https://edu.ge.ch/secondaire2/stite/accueil"
+                    href="https://edu.ge.ch/secondaire2/stite/accueil" aria-label="ECCG Aimée-Stitelmann's website"
                     class="underline"
                     ><span class="underline">ECCG Aimée-Stitelmann</span
                     ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
