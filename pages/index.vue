@@ -40,8 +40,10 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
         that merge the worlds of business and technology.
       </p>
     </div>
-    <img
-      src="../assets/images/pp.png"
+
+    <nuxt-img
+      format="webp"
+      src="../public/images/pp.png"
       alt="profilePic"
       class="w-1/2 md:max-w-sm p-8 mx-auto pt-0 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
     />
