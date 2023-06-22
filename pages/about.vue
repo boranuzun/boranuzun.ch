@@ -81,10 +81,10 @@ useHead({
             <h2 class="text-xl font-bold mt-6 mb-4">Experience</h2>
             <div class="mb-10">
               <div class="flex justify-between">
-                <span class="text-gray-600 font-bold after:content-['_↗'] ..."
+                <span class="text-gray-600 font-bold"
                   >Inventory clerk @
-                  <a href="https://www.denner.ch" class="underline"
-                    >Denner</a
+                  <a href="https://www.denner.ch"
+                    ><span class="underline">Denner</span> <Icon name="↗︎"/></a
                   ></span
                 >
                 <p>
