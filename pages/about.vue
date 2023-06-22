@@ -12,7 +12,6 @@ useHead({
 </script>
 
 <template>
-  <SiteBackground />
   <h1 class="text-3xl font-bold my-8">Résumé</h1>
   <div class="bg-transparent">
     <div class="container mx-auto py-8">
@@ -85,7 +84,7 @@ useHead({
                   >Inventory clerk @
                   <a href="https://www.denner.ch"
                     ><span class="underline">Denner</span>
-                    <Icon name="mingcute:arrow-right-up-fill" /></a
+                    <Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Apr 2022 - Present</span>
@@ -110,7 +109,7 @@ useHead({
                   >Pionnier d'ondes dirigées @
                   <a href="https://www.vtg.admin.ch/en/home.html"
                     ><span class="underline">Swiss Armed Forces</span
-                    ><Icon name="mingcute:arrow-right-up-fill" /></a
+                    ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Jan 2020 - May 2020</span>
@@ -131,7 +130,7 @@ useHead({
                   >Cashier - Student Job @
                   <a href="https://www.coop.ch"
                     ><span class="underline">Coop</span
-                    ><Icon name="mingcute:arrow-right-up-fill" /></a
+                    ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Jun 2019 - Dec 2019</span>
@@ -171,7 +170,7 @@ useHead({
                   <a href="https://www.hug.ch/"
                     ><span class="underline"
                       >Hôpitaux Universitaires de Genève</span
-                    ><Icon name="mingcute:arrow-right-up-fill" /></a
+                    ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Aug 2017 - Aug 2018</span>
@@ -203,7 +202,7 @@ useHead({
                   >Bachelor of Science in Business IT @
                   <a href="https://www.hesge.ch/heg"
                     ><span class="underline">HEG</span
-                    ><Icon name="mingcute:arrow-right-up-fill" /></a
+                    ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Sep 2021 - Present</span>
@@ -218,7 +217,7 @@ useHead({
                     href="https://edu.ge.ch/secondaire2/stite/accueil"
                     class="underline"
                     ><span class="underline">ECCG Aimée-Stitelmann</span
-                    ><Icon name="mingcute:arrow-right-up-fill" /></a
+                    ><Icon name="mingcute:arrow-right-up-fill" size="1.1em"/></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Aug 2014 - Aug 2018</span>
