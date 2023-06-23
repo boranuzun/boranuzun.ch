@@ -12,7 +12,7 @@
       <meta name="author" content="Boran Uzun" />
       <meta
         name="keywords"
-        content="Boran Uzun, personal website, portfolio, achievements, work, web development, geneva, genève, switzerland, suisse, schweiz, student, heg, heig-vd, heig-vd.ch, heig-vd.ch, computer science, computer, it, information technology"
+        content="Boran Uzun, Boran, Uzun, personal website, portfolio, achievements, work, web development, geneva, genève, onex, switzerland, suisse, schweiz, student, heg, heig-vd, computer science, computer, it, information technology, informatique de gestion, Python, Java, UML, Git, programming, software development, technology, business, computer skills, communication, teamwork, problem-solving, inventory clerk, technical support, Swiss Army, Hôpitaux Universitaires de Genève, professional growth"
       />
       <!-- Add canonical URL -->
       <link rel="canonical" href="https://www.boranuzun.ch" />

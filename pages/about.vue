@@ -91,9 +91,15 @@ useHead({
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >Inventory clerk @
-                  <a href="https://www.denner.ch" aria-label="Denner's website"
+                  <a
+                    href="https://www.denner.ch"
+                    aria-label="Denner's website"
+                    class="group"
                     ><span class="underline">Denner</span>
-                    <Icon name="mingcute:arrow-right-up-fill" size="1.1em" /></a
+                    <Icon
+                      name="mingcute:arrow-right-up-fill"
+                      size="1.1em"
+                      class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Apr 2022 - Present</span>
@@ -119,10 +125,12 @@ useHead({
                   <a
                     href="https://www.vtg.admin.ch/en/home.html"
                     aria-label="Swiss Armed Forces' website"
+                    class="group"
                     ><span class="underline">Swiss Armed Forces</span
                     ><Icon
                       name="mingcute:arrow-right-up-fill"
-                      size="1.1em" /></a
+                      size="1.1em"
+                      class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Jan 2020 - May 2020</span>
@@ -141,11 +149,15 @@ useHead({
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >Cashier - Student Job @
-                  <a href="https://www.coop.ch" aria-label="Coop's website"
+                  <a
+                    href="https://www.coop.ch"
+                    aria-label="Coop's website"
+                    class="group"
                     ><span class="underline">Coop</span
                     ><Icon
                       name="mingcute:arrow-right-up-fill"
-                      size="1.1em" /></a
+                      size="1.1em"
+                      class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Jun 2019 - Dec 2019</span>
@@ -182,12 +194,16 @@ useHead({
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >HR Intern @
-                  <a href="https://www.hug.ch/" aria-label="HUG's website"
+                  <a
+                    href="https://www.hug.ch/"
+                    aria-label="HUG's website"
+                    class="group"
                     ><span class="underline"
                       >Hôpitaux Universitaires de Genève</span
                     ><Icon
                       name="mingcute:arrow-right-up-fill"
-                      size="1.1em" /></a
+                      size="1.1em"
+                      class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Aug 2017 - Aug 2018</span>
@@ -217,11 +233,15 @@ useHead({
               <div class="flex justify-between">
                 <span class="text-gray-600 font-bold"
                   >Bachelor of Science in Business IT @
-                  <a href="https://www.hesge.ch/heg" aria-label="HEG's website"
+                  <a
+                    href="https://www.hesge.ch/heg"
+                    aria-label="HEG's website"
+                    class="group"
                     ><span class="underline">HEG</span
                     ><Icon
                       name="mingcute:arrow-right-up-fill"
-                      size="1.1em" /></a
+                      size="1.1em"
+                      class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Sep 2021 - Present</span>
@@ -235,11 +255,12 @@ useHead({
                   <a
                     href="https://edu.ge.ch/secondaire2/stite/accueil"
                     aria-label="ECCG Aimée-Stitelmann's website"
-                    class="underline"
+                    class="underline group"
                     ><span class="underline">ECCG Aimée-Stitelmann</span
                     ><Icon
                       name="mingcute:arrow-right-up-fill"
-                      size="1.1em" /></a
+                      size="1.1em"
+                      class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" /></a
                 ></span>
                 <p>
                   <span class="text-gray-600">Aug 2014 - Aug 2018</span>

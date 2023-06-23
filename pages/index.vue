@@ -9,41 +9,45 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
   <!-- Main content -->
   <section>
     <h1 class="text-5xl font-bold mt-20">
-      <span style="display: inline-block; margin-right: 5px">Hi there</span>
+      <span class="inline-block mr-1">Hi there</span>
       <span
-        style="display: inline-block"
-        class="animate-[wave_2s_ease-in-out_3] hover:animate-wave cursor-pointer ml-2 mr-4 origin-bottom"
+        class="inline-block animate-[wave_2s_ease-in-out_3] hover:animate-wave cursor-pointer ml-2 mr-4 origin-bottom"
         ><img src="../assets/images/wave.png" alt="wave-hand" class="w-12"
       /></span>
-      <span style="display: inline-block">I'm Boran </span>
+      <span class="inline-block">I'm Boran </span>
     </h1>
     <p class="text-base text-gray-900 mt-2 ml-1 mb-5 italic">
       IT Student @
       <a
         href="https://www.hesge.ch/heg/"
         aria-label="HEG's website"
-        class="font-bold underline"
-        >HEG<Icon name="mingcute:arrow-right-up-fill" size="1.1em"
+        class="font-bold underline group"
+        >HEG<Icon
+          name="mingcute:arrow-right-up-fill"
+          size="1.1em"
+          class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
       /></a>
     </p>
   </section>
-  <section class="flex flex-col md:flex-row text-justify">
-    <div class="md:w-3/4">
+  <section class="flex flex-col md:flex-row">
+    <div class="md:w-3/4 text-justify md:text-left">
       <p class="text-lg py-2">
         I'm a passionate second-year Business IT student at
         <a
-          href="https://www.hesge.ch/heg/"
+          href="https://www.hesge.ch/heg/formations/bachelors/informatique-gestion"
           aria-label="HEG's website"
-          class="font-bold underline"
+          class="font-bold underline group"
           >Haute école de gestion de Genève<Icon
             name="mingcute:arrow-right-up-fill"
-            size="1.1em" /></a
+            size="1.1em"
+            class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" /></a
         >, where I've gained a diverse set of skills. Through my academic
         journey, I've honed my abilities in Python, Java, UML and Git.
       </p>
       <p class="text-lg py-2">
-        I'm eager to apply my knowledge and contribute to innovative projects
-        that merge the worlds of business and technology.
+        I am driven to embark on innovative projects and contribute to their
+        success. Committed to continuous learning and eager to make a positive
+        impact in the realm of business and technology.
       </p>
     </div>
     <!-- <nuxt-img
