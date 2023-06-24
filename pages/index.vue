@@ -1,4 +1,14 @@
 <script setup>
+useHead({
+  meta: [
+    {
+      name: "description",
+      content:
+        "This is the home page of Boran Uzun's personal website, where he showcases his work and achievements.",
+    },
+  ],
+});
+
 const { data: posts } = await useAsyncData("latest-posts", () =>
   queryContent("/blog").sort({ data: 1 }).limit(3).find()
 );
@@ -12,7 +22,11 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
       <span class="inline-block mr-1">Hi there</span>
       <span
         class="inline-block animate-[wave_2s_ease-in-out_3] hover:animate-wave cursor-pointer ml-2 mr-4 origin-bottom"
-        ><img src="../assets/images/wave.png" alt="wave-hand" class="w-12"
+        ><img
+          src="../assets/images/wave.png"
+          alt="wave-hand"
+          width="48px"
+          height="48px"
       /></span>
       <span class="inline-block">I'm Boran </span>
     </h1>

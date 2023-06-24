@@ -39,7 +39,7 @@ useHead({
   <h2 class="text-2xl font-bold mt-8 mb-2">Hardware</h2>
   <ul class="list-disc">
     <li class="ml-8 py-1">
-      MacBook Pro (14", 2021) - Best laptop I've ever owned.
+      MacBook Pro (14", 2021) — Best laptop I've ever owned.
     </li>
   </ul>
 
@@ -49,19 +49,19 @@ useHead({
       <a href="https://code.visualstudio.com/" aria-label="Visual Studio Code"
         >Visual Studio Code</a
       >
-      - I use it for pretty much everything.
+      — I use it for pretty much everything.
     </li>
     <li class="ml-8">
-      <a href="https://www.iterm2.com/" aria-label="iTerm">iTerm2</a> - Not much
+      <a href="https://www.iterm2.com/" aria-label="iTerm">iTerm2</a> — Not much
       to say here. I use it as my terminal emulator.
     </li>
     <li class="ml-8">
-      <a href="https://fig.io/" aria-label="Fig">Fig</a> - Offers autocomplete
+      <a href="https://fig.io/" aria-label="Fig">Fig</a> — Offers autocomplete
       for the terminal and is a great tool for productivity.
     </li>
     <li class="ml-8">
       <a href="https://draculatheme.com/" aria-label="Dracula Theme">Dracula</a>
-      - This is my theme of choice for VS Code.
+      — This is my theme of choice for VS Code.
     </li>
   </ul>
   <!-- <nuxt-img

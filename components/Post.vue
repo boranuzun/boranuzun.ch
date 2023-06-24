@@ -29,10 +29,11 @@ const formatDate = (date) => {
     <div class="p-6">
       <h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
       <p class="text-gray-700 mb-4">{{ post.description }}</p>
-      <p class="text-gray-600 text-sm mb-2">{{ formatDate(post.date) }}</p>
+      <p class="text-gray-600 text-sm xl:mb-4 mb-2">{{ formatDate(post.date) }}</p>
       <NuxtLink
         :to="post._path"
-        class="inline-block bg-indigo-800 hover:bg-indigo-600 text-white py-2 px-4 rounded float-right mb-8"
+        :aria-label="`Read: ${post.title}`"
+        class="inline-block bg-indigo-800 hover:bg-indigo-600 text-white py-2 px-4 rounded float-right mb-6"
         >Read More
       </NuxtLink>
     </div>
