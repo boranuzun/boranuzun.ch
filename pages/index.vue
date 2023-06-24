@@ -24,7 +24,7 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
         class="font-bold underline group"
         >HEG<Icon
           name="mingcute:arrow-right-up-fill"
-          size="1.1em"
+          size="1.2em"
           class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
       /></a>
     </p>
