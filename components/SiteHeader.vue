@@ -44,11 +44,15 @@ const navigation = [
               <img
                 class="block h-8 w-auto lg:hidden"
                 src="../assets/images/flower.png"
-                alt="Your Company" />
+                alt="Boran Uzun's website logo"
+                width="32px"
+                height="32px" />
               <img
                 class="hidden h-8 w-auto lg:block"
                 src="../assets/images/flower.png"
-                alt="Your Company"
+                alt="Boran Uzun's website logo"
+                width="32px"
+                height="32px"
             /></a>
           </div>
           <div class="hidden sm:ml-6 sm:block">
