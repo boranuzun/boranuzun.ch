@@ -74,6 +74,6 @@ useHead({
   <img
     src="../public/images/vscode_dracula.png"
     alt="Visual Studio Code Dracula Theme"
-    class="mt-8 mb-20"
+    class="mt-2"
   />
 </template>

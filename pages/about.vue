@@ -14,7 +14,7 @@ useHead({
 <template>
   <h1 class="text-3xl font-bold my-8">Résumé</h1>
   <div class="bg-transparent">
-    <div class="container mx-auto py-8">
+    <div class="container mx-auto my-8">
       <div class="grid grid-cols-4 sm:grid-cols-12 gap-6">
         <div class="col-span-4 sm:col-span-3">
           <div class="sticky top-10">
