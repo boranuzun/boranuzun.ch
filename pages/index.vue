@@ -1,4 +1,6 @@
 <script setup>
+import Experience from "~/components/Experience.vue";
+
 useHead({
   meta: [
     {

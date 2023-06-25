@@ -1,0 +1,47 @@
+<template>
+  <div>
+    <div class="sticky top-10">
+      <div class="bg-white shadow rounded-lg p-6">
+        <div class="flex flex-col items-center">
+          <img
+            src="../../public/images/pp.png"
+            alt="profilePic"
+            class="w-32 h-32 bg-white rounded-full mb-4 shrink-0"
+          />
+          <h1 class="text-xl font-bold">Boran Uzun</h1>
+          <p class="text-gray-600">IT Student</p>
+          <div class="mt-6 flex flex-wrap gap-4 justify-center">
+            <a
+              href="mailto:boran.u3@gmail.com"
+              aria-label="Email of Boran Uzun"
+              class="bg-indigo-800 hover:bg-indigo-600 text-white py-2 px-4 rounded"
+              >Contact</a
+            >
+            <a
+              href="https://kdrive.infomaniak.com/app/share/654236/44a53e47-7537-448a-8735-7d5888dff26e"
+              aria-label="Resume of Boran Uzun"
+              target="_blank"
+              class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded"
+              >Resume</a
+            >
+          </div>
+        </div>
+        <hr class="my-6 border-t border-gray-300" />
+        <div class="flex flex-col">
+          <span class="text-gray-600 uppercase font-bold tracking-wider mb-2"
+            >Skills</span
+          >
+          <ul class="space-y-1 list-disc">
+            <li class="ml-8">Python</li>
+            <li class="ml-8">Java</li>
+            <li class="ml-8">HTML</li>
+            <li class="ml-8">Vue</li>
+            <li class="ml-8">PL/SQL</li>
+            <li class="ml-8">Git</li>
+            <li class="ml-8">UML</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

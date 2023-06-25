@@ -3,10 +3,6 @@ import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
 } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
@@ -18,7 +14,6 @@ const navigation = [
   { name: "Projects", href: "/projects", current: route.name === "projects" },
   { name: "Uses", href: "/uses", current: route.name === "uses" },
   { name: "About", href: "/about", current: route.name === "about" },
-  //   { name: "Contact", href: "/contact", current: route.name === "contact" },
 ];
 </script>
 
