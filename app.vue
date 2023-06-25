@@ -1,5 +1,5 @@
 <template>
-  <Html lang="en">
+  <Html lang="en" dir="ltr">
     <div class="flex flex-col min-h-screen">
       <Head>
         <meta charset="UTF-8" />
@@ -35,7 +35,7 @@
       </Head>
       <SiteHeader />
       <main
-        class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 grow items-start w-full"
+        class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 grow items-start w-full text-gray-900"
       >
         <NuxtPage />
       </main>

@@ -1,6 +1,6 @@
 ---
 title: Lorem
-description: Et fugiat nisi in exercitation occaecat commodo quis eiusmod excepteur aliqua.
+description: Lorem officia aliquip veniam culpa. Qui consequat laborum irure voluptate proident mollit adipisicing qui qui. Aute proident consectetur ea cillum. Velit aliqua nostrud enim voluptate anim consequat labore ex eiusmod incididunt. Lorem culpa nisi in cillum veniam eiusmod exercitation eu elit non. Dolor enim incididunt quis nostrud consectetur excepteur.
 date: 2023-06-20
 cover: code.jpg
 tags:
