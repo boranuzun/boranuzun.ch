@@ -30,13 +30,15 @@ const sortedPosts = props.posts.slice().sort((a, b) => {
           </h3>
           <time
             datetime=""
-            class="row-start-1 mb-1 md:pl-2 md:col-start-1 xl:col-span-2 text-gray-400"
+            class="row-start-1 mb-1 md:pl-2 md:col-start-1 xl:col-span-2 text-xs md:text-sm text-gray-400"
             >{{ formatDate(post.date) }}</time
           >
           <p
             class="md:col-start-2 md:col-span-4 xl:col-start-3 xl:col-span-10 md:ml-0 text-gray-600"
           >
             {{ post.description }}
+            <br>
+            <span v-for="tag in post.tags" class="mr-3 last:mr-0 text-xs text-indigo-700">#{{ tag }}</span>
           </p>
         </NuxtLink>
       </article>

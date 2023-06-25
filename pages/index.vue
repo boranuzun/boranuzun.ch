@@ -15,35 +15,32 @@ useHead({
     <div class="m-auto">
       <SiteBackground />
       <!-- Main content -->
-      <div></div>
-      <section>
-        <h1 class="text-5xl font-bold">
-          <span class="inline-block mr-1">Hi there</span>
-          <span
-            class="inline-block animate-[wave_2s_ease-in-out_3] hover:animate-wave cursor-pointer ml-2 mr-4 origin-bottom"
-            ><img
-              src="../assets/images/wave.png"
-              alt="wave-hand"
-              width="48px"
-              height="48px"
-          /></span>
-          <span class="inline-block">I'm Boran </span>
-        </h1>
-        <p class="text-base mt-2 ml-1 mb-5 italic">
-          IT Student @
-          <a
-            href="https://www.hesge.ch/heg/"
-            aria-label="HEG's website"
-            class="font-bold underline group"
-            >HEG<Icon
-              name="mingcute:arrow-right-up-fill"
-              size="1.2em"
-              class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
-          /></a>
-        </p>
-      </section>
       <section class="flex flex-col md:flex-row">
         <div class="md:w-3/4 text-justify md:text-left">
+          <h1 class="text-5xl font-bold">
+            <span class="inline-block mr-1">Hi there</span>
+            <span
+              class="inline-block animate-[wave_2s_ease-in-out_3] hover:animate-wave cursor-pointer ml-2 mr-4 origin-bottom"
+              ><img
+                src="../assets/images/wave.png"
+                alt="wave-hand"
+                width="48px"
+                height="48px"
+            /></span>
+            <span class="inline-block">I'm Boran </span>
+          </h1>
+          <p class="text-base mt-2 ml-1 mb-5 italic">
+            IT Student @
+            <a
+              href="https://www.hesge.ch/heg/"
+              aria-label="HEG's website"
+              class="font-bold underline group"
+              >HEG<Icon
+                name="mingcute:arrow-right-up-fill"
+                size="1.2em"
+                class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
+            /></a>
+          </p>
           <p class="text-lg py-2">
             I'm a passionate second-year Business IT student at
             <a

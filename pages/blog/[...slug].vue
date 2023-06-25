@@ -7,18 +7,17 @@ const { data } = await useAsyncData(`content-${path}`, () => {
 </script>
 
 <template>
-  <ContentRenderer
-    :value="data"
-    class="prose my-10 mx-auto max-w-7xl text-justify"
-  />
-  <div class="my-8">
-    <button
+  <div class="mt-8 mb-2">
+    <span
       v-for="tag in data.tags"
       :key="tag"
-      class="text-sm font-semibold inline-block py-2 px-4 rounded text-gray-100 bg-indigo-800 uppercase last:mr-0 mr-4"
+      class="text-sm font-semibold inline-block py-2 px-2 uppercase last:mr-0 mr-2 first:pl-1 text-indigo-700"
     >
-      <Icon name="pajamas:label" size="1.5rem" class="text-gray-100 mr-1" />
-      {{ tag }}
-    </button>
+      #{{ tag }}
+    </span>
   </div>
+  <ContentRenderer
+    :value="data"
+    class="prose mb-10 mx-auto max-w-7xl text-justify"
+  />
 </template>
