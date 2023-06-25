@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-6">
     <div class="mb-4">
       <div class="grid grid-cols-1 lg:grid-cols-4 lg:gap-2 justify-between">
         <div class="col-span-3">
@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <div class="mb-10">
+    <div>
       <div class="grid grid-cols-1 lg:grid-cols-4 lg:gap-2">
         <div class="col-span-3">
           <span class="text-gray-600 font-bold">

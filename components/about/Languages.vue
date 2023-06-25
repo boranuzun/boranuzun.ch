@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-6">
     <div class="flex justify-between my-2">
       <span class="text-gray-600 font-bold">French</span>
       <p>
@@ -18,7 +18,7 @@
         <span class="text-gray-600">Advanced proficiency</span>
       </p>
     </div>
-    <div class="flex justify-between my-2 mb-10">
+    <div class="flex justify-between my-2">
       <span class="text-gray-600 font-bold">German</span>
       <p>
         <span class="text-gray-600">Elementary proficiency</span>

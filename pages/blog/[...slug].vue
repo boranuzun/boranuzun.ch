@@ -8,13 +8,19 @@ const { data } = await useAsyncData(`content-${path}`, () => {
 
 <template>
   <div class="mt-8 mb-2">
-    <span
+    <!-- <span
       v-for="tag in data.tags"
       :key="tag"
       class="text-sm font-semibold inline-block py-2 px-2 uppercase last:mr-0 mr-2 first:pl-1 text-indigo-700"
     >
       #{{ tag }}
-    </span>
+    </span> -->
+    <span
+      v-for="tag in data.tags"
+      :key="tag"
+      class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-xl text-xs font-medium bg-indigo-700 text-white last:mr-0 mr-2"
+      >{{tag}}</span
+    >
   </div>
   <ContentRenderer
     :value="data"

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-gray-700">
+    <p class="text-gray-700 text-justify">
       I am a dedicated and motivated IT student with a passion for coding and
       problem-solving. With a strong foundation in Python, Java, UML, and Git I
       am equipped with the technical skills necessary to develop innovative

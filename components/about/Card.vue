@@ -4,7 +4,7 @@
       <div class="bg-white shadow rounded-lg p-6">
         <div class="flex flex-col items-center">
           <img
-            src="../../public/images/pp.png"
+            src="../../assets/images/pp.png"
             alt="profilePic"
             class="w-32 h-32 bg-white rounded-full mb-4 shrink-0"
           />

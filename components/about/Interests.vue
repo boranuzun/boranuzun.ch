@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-2">
     <div class="flex justify-between my-2">
       <span class="text-gray-600 font-bold">Reading</span>
       <p>
@@ -15,7 +15,7 @@
     <div class="flex justify-between my-2">
       <span class="text-gray-600 font-bold">TV Shows / Movies</span>
       <p>
-        <span class="text-gray-600">GOT, Mr Robot, SnK</span>
+        <span class="text-gray-600">GoT, Mr Robot, SnK</span>
       </p>
     </div>
   </div>
