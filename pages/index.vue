@@ -17,7 +17,7 @@ useHead({
       <!-- Main content -->
       <section class="flex flex-col md:flex-row">
         <div class="md:w-3/4 text-justify md:text-left">
-          <h1 class="text-5xl font-bold">
+          <h1 class="text-5xl font-bold mt-10 md:mt-0">
             <span class="inline-block mr-1">Hi there</span>
             <span
               class="inline-block animate-[wave_2s_ease-in-out_3] hover:animate-wave cursor-pointer ml-2 mr-4 origin-bottom"
@@ -69,7 +69,7 @@ useHead({
         <img
           src="../public/images/pp.png"
           alt="profilePic"
-          class="w-1/2 md:max-w-sm p-8 mx-auto pt-0 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
+          class="w-1/2 md:max-w-sm p-8 mx-auto pt-0 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 mb-10 md:mb-0"
         />
       </section>
 

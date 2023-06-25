@@ -30,7 +30,7 @@ const sortedPosts = props.posts.slice().sort((a, b) => {
           </h3>
           <time
             datetime=""
-            class="row-start-1 mb-1 md:pl-2 md:col-start-1 xl:col-span-2 text-xs md:text-sm text-gray-400"
+            class="row-start-1 mb-1 md:pl-2 md:col-start-1 xl:col-span-2 text-xs md:text-sm text-gray-500"
             >{{ formatDate(post.date) }}</time
           >
           <p
