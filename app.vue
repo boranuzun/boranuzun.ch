@@ -33,13 +33,15 @@
           content="Explore Boran Uzun's work and achievements on his personal website."
         />
       </Head>
-      <SiteHeader />
-      <main
-        class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grow items-start w-full text-gray-900"
-      >
-        <NuxtPage />
-      </main>
-      <SiteFooter />
+      <Body>
+        <SiteHeader />
+        <main
+          class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grow items-start w-full text-gray-900"
+        >
+          <NuxtPage />
+        </main>
+        <SiteFooter />
+      </Body>
     </div>
   </Html>
 </template>

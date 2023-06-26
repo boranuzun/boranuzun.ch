@@ -40,7 +40,7 @@ const { data } = await useAsyncQuery(query);
     :key="project.id"
     class="flex flex-col bg-white border shadow-sm rounded overflow-x-auto hover:shadow-lg transition ease-in-out hover:-translate-y-1 hover:scale-103 duration-300"
   >
-    <div class="p-4 md:p-5">
+    <div class="p-4 md:p-5 flex-grow">
       <a :href="project.url" target="_blank" aria-label="{{ project.title }}">
         <h3 class="text-lg font-bold text-gray-800">
           {{ project.name }}
