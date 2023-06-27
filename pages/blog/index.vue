@@ -22,5 +22,5 @@ const { data: posts } = await useAsyncData("posts", () =>
     If there's a particular subject you'd like me to explore, feel free to
     contact me through my social media channels.
   </p>
-  <Posts :posts="posts" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"/>
+  <Posts :posts="posts" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-8"/>
 </template>
