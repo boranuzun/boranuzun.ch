@@ -11,13 +11,13 @@ useHead({
 </script>
 
 <template>
-  <div id="main" class="flex">
+  <div class="flex h-[calc(100vh-158px)]">
     <div class="m-auto">
       <SiteBackground />
       <!-- Main content -->
       <section class="flex flex-col md:flex-row">
         <div class="md:w-3/4 text-justify md:text-left py-4">
-          <h1 class="text-5xl font-bold md:mt-0">
+          <h1 class="text-5xl font-bold mt-6 md:mt-0">
             <span class="inline-block mr-1">Hi there</span>
             <span
               class="inline-block animate-[wave_2s_ease-in-out_3] hover:animate-wave cursor-pointer ml-2 mr-4 origin-bottom w-11 h-11 md:w-12 md:h-12"
@@ -69,9 +69,3 @@ useHead({
     </div>
   </div>
 </template>
-
-<style scoped>
-#main {
-  height: 100dvh;
-}
-</style>
