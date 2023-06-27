@@ -35,6 +35,7 @@
         >
           <li class="ml-8">Python</li>
           <li class="ml-8">Java</li>
+          <li class="ml-8">JavaScript</li>
           <li class="ml-8">HTML</li>
           <li class="ml-8">Vue</li>
           <li class="ml-8">PL/SQL</li>

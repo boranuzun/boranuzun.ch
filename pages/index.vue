@@ -1,6 +1,4 @@
 <script setup>
-import Experience from "~/components/Experience.vue";
-
 useHead({
   meta: [
     {
@@ -18,8 +16,8 @@ useHead({
       <SiteBackground />
       <!-- Main content -->
       <section class="flex flex-col md:flex-row">
-        <div class="md:w-3/4 text-justify md:text-left">
-          <h1 class="text-5xl font-bold mt-6 md:mt-0">
+        <div class="md:w-3/4 text-justify md:text-left py-4">
+          <h1 class="text-5xl font-bold md:mt-0">
             <span class="inline-block mr-1">Hi there</span>
             <span
               class="inline-block animate-[wave_2s_ease-in-out_3] hover:animate-wave cursor-pointer ml-2 mr-4 origin-bottom w-11 h-11 md:w-12 md:h-12"
@@ -62,41 +60,18 @@ useHead({
             positive impact in the realm of business and technology.
           </p>
         </div>
-        <!-- <nuxt-img
-      format="webp"
-      src="../public/images/pp.png"
-      alt="profilePic"
-      class="w-1/2 md:max-w-sm p-8 mx-auto pt-0 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
-    /> -->
         <img
           src="../assets/images/pp.png"
           alt="profilePic"
           class="w-1/2 md:max-w-sm invisible sm:visible p-8 mx-auto pt-0 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
         />
       </section>
-
-      <!-- Blog Posts -->
-      <!-- <section>
-    <h2 class="text-3xl font-bold mt-8">Latest Blog Posts</h2>
-    <div class="grid md:grid-cols-3 pt-8 gap-10 mb-20">
-      <Post :posts="posts" />
-    </div>
-  </section> -->
-
-      <!-- <section>
-    <h2 class="text-3xl font-bold mt-8">Latest Blog Posts</h2>
-    <div class="pt-8 gap-10 mb-20">
-      <Posts :posts="posts" />
-    </div>
-  </section> -->
     </div>
   </div>
 </template>
 
 <style scoped>
 #main {
-  height: calc(
-    100svh - 158.79px
-  ); /* minus the height of the navbar and footer */
+  height: 100dvh;
 }
 </style>
