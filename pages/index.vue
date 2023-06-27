@@ -96,7 +96,7 @@ useHead({
 <style scoped>
 #main {
   height: calc(
-    100vh - 158.79px
+    100svh - 158.79px
   ); /* minus the height of the navbar and footer */
 }
 </style>

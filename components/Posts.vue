@@ -21,10 +21,10 @@ const sortedPosts = props.posts.slice().sort((a, b) => {
         <NuxtLink
           :to="post._path"
           :aria-label="`Read: ${post.title}`"
-          class="grid overflow-hidden md:grid-cols-5 rounded py-4 lg:py-6 xl:grid-cols-12 hover:bg-gray-100"
+          class="grid overflow-hidden md:grid-cols-5 rounded p-4 lg:py-6 xl:grid-cols-12 hover:bg-gray-100"
         >
           <h3
-            class="mb-1 font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9 text-lg"
+            class=" font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9 text-lg"
           >
             {{ post.title }}
           </h3>
