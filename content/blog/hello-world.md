@@ -5,6 +5,7 @@ date: 2023-06-19
 cover: galaxy-3608029_640.jpg
 tags:
   - blog
+  - hello world
 ---
 
 # Hello, World 👋🏻

@@ -15,39 +15,54 @@ const sortedPosts = props.posts.slice().sort((a, b) => {
 </script>
 
 <template>
-  <ul>
-    <li v-for="post in sortedPosts" :key="post.slug">
-      <article>
-        <div class="md:border-l md:border-zinc-200">
-          <NuxtLink
-            :to="post._path"
-            :aria-label="`Read: ${post.title}`"
-            class="grid md:grid-cols-5 rounded-lg py-4 md:p-4 lg:py-6 xl:grid-cols-12 hover:bg-gray-100 transition duration-200 delay-100"
+  <div
+    class="md:border-l md:border-zinc-100 md:pl-3 mt-14"
+  >
+    <div class="flex flex-col space-y-10">
+      <article
+        v-for="post in sortedPosts"
+        :key="post.slug"
+        class="md:grid md:grid-cols-6 md:items-baseline"
+      >
+        <div class="md:col-span-5 group relative flex flex-col items-start">
+          <h2 class="text-lg font-semibold tracking-tight">
+            <div
+              class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded"
+            ></div>
+            <NuxtLink :to="post._path" :aria-label="`Read: ${post.title}`"
+              ><span
+                class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded"
+              ></span
+              ><span class="relative z-10">{{ post.title }}</span></NuxtLink
+            >
+          </h2>
+          <time
+            class="md:hidden relative z-10 order-first mb-1 flex items-center text-sm pl-2 text-gray-500"
+            datetime="{{ formatDate(post.date) }}"
+            ><span
+              class="absolute inset-y-0 left-0 flex items-center"
+              aria-hidden="true"
+              ><span
+                class="h-4 w-0.5 rounded-full bg-zinc-200"
+              ></span></span
+            >{{ formatDate(post.date) }}</time
           >
-            <time
-              datetime="{{ formatDate(post.date) }}"
-              class="row-start-1 mb-1 md:col-start-1 xl:col-span-2 text-xs md:text-sm text-gray-500 self-center border-l-2 border-zinc-500 pl-2 md:pl-0 md:border-l-0"
-              >{{ formatDate(post.date) }}</time
+          <p class="relative z-10 text-gray-600">
+            {{ post.description }}
+            <br />
+            <span
+              v-for="tag in post.tags"
+              class="mr-3 last:mr-0 text-xs text-indigo-700"
+              >#{{ tag }}</span
             >
-            <h3
-              class="font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9 text-lg"
-            >
-              {{ post.title }}
-            </h3>
-            <p
-              class="md:col-start-2 md:col-span-4 xl:col-start-3 xl:col-span-10 md:ml-0 text-gray-600"
-            >
-              {{ post.description }}
-              <br />
-              <span
-                v-for="tag in post.tags"
-                class="mr-3 last:mr-0 text-xs text-indigo-700"
-                >#{{ tag }}</span
-              >
-            </p>
-          </NuxtLink>
+          </p>
         </div>
+        <time
+          class="mt-1 hidden md:block relative z-10 order-first mb-3 items-center text-sm text-gray-500"
+          datetime="{{ formatDate(post.date) }}"
+          >{{ formatDate(post.date) }}</time
+        >
       </article>
-    </li>
-  </ul>
+    </div>
+  </div>
 </template>

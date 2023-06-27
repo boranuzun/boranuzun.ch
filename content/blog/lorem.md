@@ -5,6 +5,7 @@ date: 2023-06-20
 cover: code.jpg
 tags:
   - blog
+  - lorem
 ---
 
 # Lorem Ipsum

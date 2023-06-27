@@ -1,6 +1,4 @@
 <script setup>
-import Experience from "~/components/Experience.vue";
-
 useHead({
   title: "About | Boran Uzun",
   meta: [
