@@ -22,8 +22,5 @@ const { data: posts } = await useAsyncData("posts", () =>
     If there's a particular subject you'd like me to explore, feel free to
     contact me through my social media channels.
   </p>
-  <!-- <section class="grid xl:grid-cols-3 mt-8 gap-10">
-    <Post :posts="posts" />
-  </section> -->
   <Posts :posts="posts" />
 </template>

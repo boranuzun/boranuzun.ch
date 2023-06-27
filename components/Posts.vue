@@ -18,29 +18,35 @@ const sortedPosts = props.posts.slice().sort((a, b) => {
   <ul>
     <li v-for="post in sortedPosts" :key="post.slug">
       <article>
-        <NuxtLink
-          :to="post._path"
-          :aria-label="`Read: ${post.title}`"
-          class="grid overflow-hidden md:grid-cols-5 rounded p-4 lg:py-6 xl:grid-cols-12 hover:bg-gray-100"
-        >
-          <h3
-            class=" font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9 text-lg"
+        <div class="md:border-l md:border-zinc-200">
+          <NuxtLink
+            :to="post._path"
+            :aria-label="`Read: ${post.title}`"
+            class="grid md:grid-cols-5 rounded-lg py-4 md:p-4 lg:py-6 xl:grid-cols-12 hover:bg-gray-100 transition duration-200 delay-100"
           >
-            {{ post.title }}
-          </h3>
-          <time
-            datetime=""
-            class="row-start-1 mb-1 md:col-start-1 xl:col-span-2 text-xs md:text-sm text-gray-500 self-center"
-            >{{ formatDate(post.date) }}</time
-          >
-          <p
-            class="md:col-start-2 md:col-span-4 xl:col-start-3 xl:col-span-10 md:ml-0 text-gray-600"
-          >
-            {{ post.description }}
-            <br>
-            <span v-for="tag in post.tags" class="mr-3 last:mr-0 text-xs text-indigo-700">#{{ tag }}</span>
-          </p>
-        </NuxtLink>
+            <time
+              datetime="{{ formatDate(post.date) }}"
+              class="row-start-1 mb-1 md:col-start-1 xl:col-span-2 text-xs md:text-sm text-gray-500 self-center border-l-2 border-zinc-500 pl-2 md:pl-0 md:border-l-0"
+              >{{ formatDate(post.date) }}</time
+            >
+            <h3
+              class="font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9 text-lg"
+            >
+              {{ post.title }}
+            </h3>
+            <p
+              class="md:col-start-2 md:col-span-4 xl:col-start-3 xl:col-span-10 md:ml-0 text-gray-600"
+            >
+              {{ post.description }}
+              <br />
+              <span
+                v-for="tag in post.tags"
+                class="mr-3 last:mr-0 text-xs text-indigo-700"
+                >#{{ tag }}</span
+              >
+            </p>
+          </NuxtLink>
+        </div>
       </article>
     </li>
   </ul>
