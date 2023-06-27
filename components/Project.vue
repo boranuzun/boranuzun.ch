@@ -40,7 +40,7 @@ const { data } = await useAsyncQuery(query);
   <div
     v-for="project in data?.viewer.repositories.nodes"
     :key="project.id"
-    class="flex flex-col bg-white border shadow-sm rounded overflow-x-auto hover:shadow-lg transition ease-in-out hover:-translate-y-1 hover:scale-103 duration-300"
+    class="flex flex-col bg-white border shadow-sm rounded overflow-x-auto hover:shadow-lg transition ease-in-out hover:-translate-y-1 duration-300"
   >
     <NuxtLink :to="project.url" aria-label="{{ project.title }}">
       <div class="p-4 md:p-5 flex-grow">
