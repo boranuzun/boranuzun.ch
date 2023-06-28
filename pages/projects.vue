@@ -16,7 +16,7 @@ useHead({
   <p class="text-lg mb-8">
     Below, you can find a collection of my projects hosted on GitHub.
   </p>
-  <section class="grid lg:grid-cols-2 gap-6 md:gap-10 mb-8">
+  <section class="grid lg:grid-cols-2 gap-6 md:gap-10 mb-28">
     <Projects />
   </section>
 </template>

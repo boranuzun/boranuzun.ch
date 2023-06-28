@@ -19,7 +19,7 @@ useHead({
         <div class="col-span-4 sm:col-span-4 lg:col-span-3">
           <AboutCard />
         </div>
-        <div class="col-span-4 sm:col-span-8 lg:col-span-9">
+        <div class="col-span-4 sm:col-span-8 lg:col-span-9 mb-20">
           <div class="shadow-lg rounded p-6">
             <h2 class="text-xl font-bold mb-4">About Me</h2>
             <AboutIntro />

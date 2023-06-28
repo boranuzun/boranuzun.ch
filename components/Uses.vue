@@ -5,15 +5,22 @@
       class="md:border-l md:border-zinc-100 md:pl-6"
     >
       <div
-        class="grid max-w-4xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
+        class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold">
+        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold text-gray-500">
           This website
         </h2>
         <div class="md:col-span-4">
           <ul role="list" class="space-y-12">
             <li class="flex flex-col">
-              <div class="grid grid-cols-3 gap-3 justify-items-center mb-1">
+              <div class="grid grid-cols-1">
+                <h3 class="font-semibold tracking-tight">
+                  Used technologies
+                </h3>
+              </div>
+              <div
+                class="grid grid-cols-3 gap-3 justify-items-center mb-1 mt-2"
+              >
                 <div class="">
                   <Icon name="logos:nuxt-icon" size="2rem" />
                 </div>
@@ -76,9 +83,9 @@
       class="md:border-l md:border-zinc-100 md:pl-6"
     >
       <div
-        class="grid max-w-4xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
+        class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold">
+        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold text-gray-500">
           Workstation
         </h2>
         <div class="md:col-span-4">
@@ -103,9 +110,9 @@
       class="md:border-l md:border-zinc-100 md:pl-6"
     >
       <div
-        class="grid max-w-4xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
+        class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold">
+        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold text-gray-500">
           Dev tools
         </h2>
         <div class="md:col-span-4">
@@ -178,9 +185,9 @@
       class="md:border-l md:border-zinc-100 md:pl-6"
     >
       <div
-        class="grid max-w-4xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
+        class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold">
+        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold text-gray-500">
           Productivity
         </h2>
         <div class="md:col-span-4">

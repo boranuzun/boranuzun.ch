@@ -15,14 +15,14 @@ const sortedPosts = props.posts.slice().sort((a, b) => {
 </script>
 
 <template>
-  <div class="md:border-l md:border-zinc-100 mt-14">
-    <div class="flex flex-col space-y-10">
+  <div class="my-14">
+    <div class="flex flex-col space-y-10 md:border-l md:border-zinc-100 md:pl-6">
       <article
         v-for="post in sortedPosts"
         :key="post.slug"
-        class="md:grid md:grid-cols-6 md:items-baseline"
+        class="md:grid md:grid-cols-5 md:items-baseline"
       >
-        <div class="md:col-span-5 group relative flex flex-col items-start">
+        <div class="md:col-span-4 group relative flex flex-col items-start">
           <h2 class="text-lg font-semibold tracking-tight">
             <div
               class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded"
