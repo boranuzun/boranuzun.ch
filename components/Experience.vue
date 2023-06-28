@@ -55,7 +55,7 @@
                       class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" /></a
                 ></span>
               </h3>
-              <time class="text-xs uppercase text-gray-400"
+              <time class="text-xs uppercase text-gray-500"
                 >Jan 2020 - May 2020</time
               >
               <p class="mt-3">
@@ -84,7 +84,7 @@
                       class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" /></a
                 ></span>
               </h3>
-              <time class="text-xs uppercase text-gray-400"
+              <time class="text-xs uppercase text-gray-500"
                 >Jun 2019 - Dec 2019</time
               >
 

@@ -15,9 +15,7 @@ const sortedPosts = props.posts.slice().sort((a, b) => {
 </script>
 
 <template>
-  <div
-    class="md:border-l md:border-zinc-100 md:pl-3 mt-14"
-  >
+  <div class="md:border-l md:border-zinc-100 md:pl-3 mt-14">
     <div class="flex flex-col space-y-10">
       <article
         v-for="post in sortedPosts"
@@ -42,9 +40,7 @@ const sortedPosts = props.posts.slice().sort((a, b) => {
             ><span
               class="absolute inset-y-0 left-0 flex items-center"
               aria-hidden="true"
-              ><span
-                class="h-4 w-0.5 rounded-full bg-zinc-200"
-              ></span></span
+              ><span class="h-4 w-0.5 rounded-full bg-zinc-200"></span></span
             >{{ formatDate(post.date) }}</time
           >
           <p class="relative z-10 text-gray-600">
