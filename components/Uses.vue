@@ -7,7 +7,9 @@
       <div
         class="grid max-w-4xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 id=":r4:" class="text-lg uppercase tracking-wider md:text-xs font-semibold ">This website</h2>
+        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold">
+          This website
+        </h2>
         <div class="md:col-span-4">
           <ul role="list" class="space-y-12">
             <li class="flex flex-col">
@@ -76,7 +78,9 @@
       <div
         class="grid max-w-4xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 id=":r4:" class="text-lg uppercase tracking-wider md:text-xs font-semibold">Workstation</h2>
+        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold">
+          Workstation
+        </h2>
         <div class="md:col-span-4">
           <ul role="list" class="space-y-12">
             <li class="group relative flex flex-col items-start">
@@ -101,7 +105,9 @@
       <div
         class="grid max-w-4xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 id=":r4:" class="text-lg uppercase tracking-wider md:text-xs font-semibold">Dev tools</h2>
+        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold">
+          Dev tools
+        </h2>
         <div class="md:col-span-4">
           <ul role="list" class="space-y-12">
             <li class="flex flex-col items-start">
@@ -174,7 +180,9 @@
       <div
         class="grid max-w-4xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 id=":r4:" class="text-lg uppercase tracking-wider md:text-xs font-semibold">Productivity</h2>
+        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold">
+          Productivity
+        </h2>
         <div class="md:col-span-4">
           <ul role="list" class="space-y-12">
             <li class="flex flex-col items-start">

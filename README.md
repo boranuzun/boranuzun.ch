@@ -1,63 +1,46 @@
-# Nuxt 3 Minimal Starter
+# Portfolio
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is my portfolio website built using Nuxt.js, Vue.js, Tailwind CSS, and Node.js.
 
-## Setup
+## Description
 
-Make sure to install the dependencies:
+This portfolio showcases my projects, skills, and experience as a web developer. It is built using Nuxt.js, a powerful Vue.js framework for server-side rendering and static site generation. The responsive design and styling are achieved using Tailwind CSS, a utility-first CSS framework. The backend and server-side functionalities are implemented with Node.js.
 
-```bash
-# npm
-npm install
+## Features
 
-# pnpm
-pnpm install
+- Responsive and modern UI design
+- Project showcase using GitHub GraphQL API
+- Skills and experience sections
+- Blog section for sharing articles and insights
+ 
 
-# yarn
-yarn install
-```
+## Installation
 
-## Development Server
+1. Clone the repository: `git clone https://github.com/boranuzun/boranuzun.ch.git`
+2. Navigate to the project directory: `cd boranuzun.ch`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and visit: `http://localhost:3000`
 
-Start the development server on `http://localhost:3000`:
+## Usage
 
-```bash
-# npm
-npm run dev
+- Customize the content in the relevant pages under the `pages/` directory.
+- Modify the styling and layout in the `components/` directory.
+- Add your projects and update the skills and experience sections in the relevant files.
 
-# pnpm
-pnpm run dev
+## Deployment
 
-# yarn
-yarn dev
-```
+1. Build the production-ready assets: `npm run build`
+2. Deploy the generated `/dist` directory to your desired hosting platform.
 
-## Production
+## Contributing
 
-Build the application for production:
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-```bash
-# npm
-npm run build
+## License
 
-# pnpm
-pnpm run build
+This project is licensed under the [MIT License](LICENSE).
 
-# yarn
-yarn build
-```
 
-Locally preview production build:
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/70ae0d14-2c91-4b09-bf79-a4a915c8281d/deploy-status)](https://app.netlify.com/sites/boranuzun/deploys)
