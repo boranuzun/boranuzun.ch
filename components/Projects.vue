@@ -60,7 +60,7 @@ const { data } = await useAsyncQuery(query);
             size="1.1rem"
             class="text-indigo-700 self-center"
           />
-          <span>Stars:</span>
+          <span class="ml-1">Stars:</span>
           <span class="ml-2 justify-items-center">
             {{ project.stargazers.totalCount }}</span
           >
@@ -71,7 +71,7 @@ const { data } = await useAsyncQuery(query);
             size="1.1rem"
             class="text-indigo-800 self-center"
           />
-          <span> Forks:</span>
+          <span class="ml-1"> Forks:</span>
           <span class="ml-2 justify-items-center">{{
             project.forks.totalCount
           }}</span>
@@ -82,7 +82,7 @@ const { data } = await useAsyncQuery(query);
             size="1.1rem"
             class="text-indigo-700 self-center"
           />
-          <span> Watchers:</span>
+          <span class="ml-1"> Watchers:</span>
           <span class="ml-2 justify-items-center">{{
             project.watchers.totalCount
           }}</span>
