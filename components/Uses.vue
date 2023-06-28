@@ -7,19 +7,19 @@
       <div
         class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold text-gray-500">
+        <h2
+          class="text-lg uppercase tracking-wider md:text-xs text-gray-500"
+        >
           This website
         </h2>
         <div class="md:col-span-4">
           <ul role="list" class="space-y-12">
             <li class="flex flex-col">
               <div class="grid grid-cols-1">
-                <h3 class="font-semibold tracking-tight">
-                  Used technologies
-                </h3>
+                <h3 class="font-semibold tracking-tight">Used technologies</h3>
               </div>
               <div
-                class="grid grid-cols-3 gap-3 justify-items-center mb-1 mt-2"
+                class="grid grid-cols-3 gap-1 justify-items-center mb-1 mt-2"
               >
                 <div class="">
                   <Icon name="logos:nuxt-icon" size="2rem" />
@@ -34,7 +34,7 @@
                   <a
                     href="https://nuxt.com/"
                     aria-label="Nuxt.js' website"
-                    class="group"
+                    class="group text-gray-600"
                     ><span class="underline">Nuxt.js</span
                     ><Icon
                       name="mingcute:arrow-right-up-fill"
@@ -46,7 +46,7 @@
                   <a
                     href="https://vuejs.org/"
                     aria-label="Vue.js' website"
-                    class="group"
+                    class="group text-gray-600"
                     ><span class="underline">Vue.js</span
                     ><Icon
                       name="mingcute:arrow-right-up-fill"
@@ -58,7 +58,7 @@
                   <a
                     href="https://tailwindcss.com/"
                     aria-label="Tailwind CSS' website"
-                    class="group"
+                    class="group text-gray-600"
                     ><span class="underline">Tailwind</span
                     ><Icon
                       name="mingcute:arrow-right-up-fill"
@@ -67,7 +67,7 @@
                   /></a>
                 </div>
               </div>
-              <p class="mt-2 text-sm">
+              <p class="mt-2 text-sm text-gray-600">
                 The tech stack for this website includes Nuxt.js, Vue.js, and
                 Tailwind CSS, hosted on Netlify. It combines the power of
                 server-side rendering, component-based UI development,
@@ -85,7 +85,9 @@
       <div
         class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold text-gray-500">
+        <h2
+          class="text-lg uppercase tracking-wider md:text-xs text-gray-500"
+        >
           Workstation
         </h2>
         <div class="md:col-span-4">
@@ -94,7 +96,7 @@
               <h3 class="font-semibold tracking-tight">
                 14” MacBook Pro &CenterDot; M1 Pro &CenterDot; 16GB RAM (2020)
               </h3>
-              <p class="mt-2 text-sm">
+              <p class="mt-2 text-sm text-gray-600">
                 I was using an Intel-based 16” MacBook Pro prior to this and the
                 difference is night and day. I’ve never heard the fans turn on a
                 single time, even under the incredibly heavy loads I put it
@@ -112,7 +114,9 @@
       <div
         class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold text-gray-500">
+        <h2
+          class="text-lg uppercase tracking-wider md:text-xs text-gray-500"
+        >
           Dev tools
         </h2>
         <div class="md:col-span-4">
@@ -130,7 +134,7 @@
                     class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                 /></a>
               </h3>
-              <p class="mt-2 text-sm">
+              <p class="mt-2 text-sm text-gray-600">
                 I'm using VS Code for pretty much all my coding needs. I've been
                 using it for the past 2 years and I'm loving it. I've tried
                 other editors like PyCharm, IntelliJ and Sublime Text but I
@@ -151,7 +155,7 @@
                     class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                 /></a>
               </h3>
-              <p class="mt-2 text-sm">
+              <p class="mt-2 text-sm text-gray-600">
                 To be honest, I'm not entirely sure what additional features
                 this offers compared to the built-in macOS Terminal, but it's
                 still my preferred choice for a terminal emulator.
@@ -170,7 +174,7 @@
                     class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                 /></a>
               </h3>
-              <p class="mt-2 text-sm">
+              <p class="mt-2 text-sm text-gray-600">
                 Fig is a terminal assistant that helps you autocomplete your
                 commands. It's like autocomplete for your terminal. It's
                 incredibly useful and I use it all the time.
@@ -187,7 +191,9 @@
       <div
         class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2 class="text-lg uppercase tracking-wider md:text-xs font-semibold text-gray-500">
+        <h2
+          class="text-lg uppercase tracking-wider md:text-xs text-gray-500"
+        >
           Productivity
         </h2>
         <div class="md:col-span-4">
@@ -205,7 +211,7 @@
                     class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                 /></a>
               </h3>
-              <p class="mt-2 text-sm">
+              <p class="mt-2 text-sm text-gray-600">
                 Alfred is a productivity app for macOS that I use to launch apps
                 and search for files. It's a great alternative to Spotlight and
                 I use it all the time. I also use it to create custom workflows
@@ -225,7 +231,7 @@
                     class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                 /></a>
               </h3>
-              <p class="mt-2 text-sm">
+              <p class="mt-2 text-sm text-gray-600">
                 I've recently started using Raycast and I'm loving it. It's a
                 lot like Alfred but it's more focused on productivity. It has a
                 lot of great features like a calendar, a todo list, a clipboard
@@ -246,7 +252,7 @@
                     class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                 /></a>
               </h3>
-              <p class="mt-2 text-sm">
+              <p class="mt-2 text-sm text-gray-600">
                 I've been using TickTick for a few months now and it's been a
                 great tool for me. It's a todo list app that helps me stay
                 organized and on top of my tasks. I use it to keep track of
@@ -266,7 +272,7 @@
                     class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                 /></a>
               </h3>
-              <p class="mt-2 text-sm">
+              <p class="mt-2 text-sm text-gray-600">
                 Miro is a collaborative whiteboard app that I use to brainstorm
                 ideas and plan projects. It's a great tool for remote teams and
                 I use it all the time.

@@ -61,7 +61,7 @@ useHead({
           </p>
         </div>
         <img
-          src="../assets/images/pp.png"
+          src="../assets/images/pp.svg"
           alt="profilePic"
           class="w-1/2 md:max-w-sm invisible sm:visible p-8 mx-auto pt-0 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
         />

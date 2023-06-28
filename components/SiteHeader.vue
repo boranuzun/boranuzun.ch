@@ -37,17 +37,17 @@ const navigation = [
           <div class="flex flex-shrink-0 items-center">
             <a href="/">
               <img
-                class="block h-8 w-auto lg:hidden"
-                src="../assets/images/flower.png"
+                class="block h-7 w-auto lg:hidden"
+                src="../assets/images/logo.svg"
                 alt="Boran Uzun's website logo"
-                width="32px"
-                height="32px" />
+                width="28px"
+                height="28px" />
               <img
-                class="hidden h-8 w-auto lg:block"
-                src="../assets/images/flower.png"
+                class="hidden h-7 w-auto lg:block"
+                src="../assets/images/logo.svg"
                 alt="Boran Uzun's website logo"
-                width="32px"
-                height="32px"
+                width="28px"
+                height="28px"
             /></a>
           </div>
           <div class="hidden sm:ml-6 sm:block">

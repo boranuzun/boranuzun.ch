@@ -2,7 +2,7 @@
 title: Hello, World!
 description: This is my very first blog post and I'm so excited to share it with you!
 date: 2023-06-19
-cover: galaxy-3608029_640.jpg
+cover: code.jpg
 tags:
   - blog
   - hello world
@@ -10,13 +10,15 @@ tags:
 
 # Hello, World 👋🏻
 
-This is a paragraph.
-
-This is another paragraph.
-
 ![Earth from Space](/images/blog/galaxy-3608029_640.jpg)
 
+This is a paragraph.
+
 ## This is a heading 2
+
+### This is a heading 3
+
+#### This is a heading 4
 
 You can use lists
 
@@ -41,11 +43,11 @@ You can use links
 
 You can use tables
 
-| Column 1 | Column 2 |
-| -------- | -------- |
-| Row 1    | Row 1    |
-| Row 2    | Row 2    |
-| Row 3    | Row 3    |
+| Table | a | r | e | cool  |
+|-------|---|---|---|-------|
+| col1  |   |   |   | data1 |
+| col1  |   |   |   | data2 |
+| col3  |   |   |   | data3 |
 
 You can use horizontal rules
 
