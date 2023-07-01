@@ -94,7 +94,7 @@
           <ul role="list" class="space-y-12">
             <li class="group relative flex flex-col items-start">
               <h3 class="font-semibold tracking-tight">
-                14” MacBook Pro &CenterDot; M1 Pro &CenterDot; 16GB RAM (2020)
+                14” MacBook Pro • M1 Pro • 16GB RAM (2020)
               </h3>
               <p class="mt-2 text-sm text-gray-600">
                 I was using an Intel-based 16” MacBook Pro prior to this and the

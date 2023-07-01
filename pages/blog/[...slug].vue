@@ -7,9 +7,18 @@ const formatDate = (date) => {
   return moment(date).format("MMMM Do YYYY");
 };
 
+// Fetch article data using the path as a filter
 const { data } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne();
 });
+
+// Throw 404 if article not found
+if (!data.value) {
+  throw createError({
+    statusCode: 404,
+    message: "Article not found",
+  });
+}
 </script>
 
 <template>
