@@ -23,6 +23,14 @@ if (!data.value) {
 
 <template>
   <div class="sm:px-8 mt-8 lg:mt-16">
+    <Head>
+      <Title>{{ data.title }} | Boran Uzun</Title>
+      <Meta name="description" :content="data.description" />
+      <Meta property="og:title" :content="data.title" />
+      <Meta property="og:description" :content="data.description" />
+      <Meta property="og:type" :content="article" />
+      <Meta property="og:url" :content="`https://www.boranuzun.ch${path}`" />
+    </Head>
     <div class="mx-auto max-w-7xl lg:px-8">
       <div class="relative px-4 sm:px-8 lg:px-12">
         <div class="mx-auto max-w-2xl lg:max-w-5xl">
@@ -31,7 +39,7 @@ if (!data.value) {
               <button
                 type="button"
                 onclick="location.href='/blog'"
-                aria-label="Go back to articles"
+                aria-label="Go back to blog articles"
                 class="group mb-8 flex h-10 w-10 items-center justify-center rounded-2xl shadow-lg hover:bg-gray-800 ring-1 ring-zinc-200 lg:absolute lg:-left-5 lg:-mt-2 lg:mb-0 xl:-top-1.5 xl:left-0 xl:mt-0"
               >
                 <Icon

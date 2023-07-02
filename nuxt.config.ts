@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxt/content",
     "@nuxtjs/apollo",
-    '@nuxt/image',
   ],
   runtimeConfig: {
     githubToken: process.env.GITHUB_TOKEN,
