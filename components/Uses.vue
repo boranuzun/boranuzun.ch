@@ -7,9 +7,7 @@
       <div
         class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2
-          class="text-lg uppercase tracking-wider md:text-xs text-gray-500"
-        >
+        <h2 class="text-lg uppercase tracking-wider md:text-xs text-gray-500">
           This website
         </h2>
         <div class="md:col-span-4">
@@ -68,8 +66,8 @@
                 </div>
               </div>
               <p class="mt-2 text-sm text-gray-600">
-                The tech stack for this website includes Nuxt.js, Vue.js, and
-                Tailwind CSS, hosted on Netlify. It combines the power of
+                This website is powered by Nuxt.js, Vue.js, and Tailwind CSS,
+                with hosting on Netlify. It leverages the benefits of
                 server-side rendering, component-based UI development,
                 utility-first styling, and reliable hosting.
               </p>
@@ -85,9 +83,7 @@
       <div
         class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2
-          class="text-lg uppercase tracking-wider md:text-xs text-gray-500"
-        >
+        <h2 class="text-lg uppercase tracking-wider md:text-xs text-gray-500">
           Workstation
         </h2>
         <div class="md:col-span-4">
@@ -97,10 +93,10 @@
                 14” MacBook Pro • M1 Pro • 16GB RAM (2020)
               </h3>
               <p class="mt-2 text-sm text-gray-600">
-                I was using an Intel-based 16” MacBook Pro prior to this and the
-                difference is night and day. I’ve never heard the fans turn on a
-                single time, even under the incredibly heavy loads I put it
-                through with our various launch simulations.
+                I was using a Lenovo laptop prior to this but the fan noise was
+                driving me crazy. I decided to switch to a MacBook and I'm
+                loving it so far. It's so quiet and the battery life is amazing.
+                I'm using it for both work and personal projects.
               </p>
             </li>
           </ul>
@@ -114,9 +110,7 @@
       <div
         class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2
-          class="text-lg uppercase tracking-wider md:text-xs text-gray-500"
-        >
+        <h2 class="text-lg uppercase tracking-wider md:text-xs text-gray-500">
           Dev tools
         </h2>
         <div class="md:col-span-4">
@@ -191,9 +185,7 @@
       <div
         class="grid max-w-5xl grid-cols-1 items-baseline gap-y-2 md:grid-cols-5"
       >
-        <h2
-          class="text-lg uppercase tracking-wider md:text-xs text-gray-500"
-        >
+        <h2 class="text-lg uppercase tracking-wider md:text-xs text-gray-500">
           Productivity
         </h2>
         <div class="md:col-span-4">

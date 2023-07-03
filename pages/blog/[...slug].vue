@@ -58,7 +58,7 @@ if (!data.value) {
                 </header>
                 <ContentRenderer
                   :value="data"
-                  class="prose prose-img:rounded-md prose-img:mx-auto mt-4 mx-auto max-w-7xl text-justify"
+                  class="prose prose-img:rounded-md prose-img:mx-auto prose-img:w-full prose-img:h-max prose-img:shadow-md mt-4 mx-auto max-w-7xl text-justify"
                 />
                 <div class="flex space-x-4 mt-6 mb-10 justify-end">
                   <span
