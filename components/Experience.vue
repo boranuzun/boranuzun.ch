@@ -138,7 +138,7 @@
               >
               <ul class="list-disc mt-3">
                 <li class="ml-8 py-1">
-                  Provide technical support to customers.
+                  Provide level 1 IT support to users.
                 </li>
                 <li class="ml-8 py-1">
                   Receive requests from users of the SABA application (LMS).

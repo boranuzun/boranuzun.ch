@@ -17,7 +17,7 @@
             >Contact</a
           >
           <a
-            href="https://kdrive.infomaniak.com/app/share/654236/44a53e47-7537-448a-8735-7d5888dff26e"
+            href="https://kdrive.infomaniak.com/app/share/654236/d4794533-dea8-4873-8ad5-93127e59d297"
             aria-label="Resume of Boran Uzun"
             target="_blank"
             class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-10 sm:px-4 rounded"
@@ -37,7 +37,9 @@
           <li class="ml-8">Java</li>
           <li class="ml-8">JavaScript</li>
           <li class="ml-8">HTML</li>
-          <li class="ml-8">Vue</li>
+          <li class="ml-8">Vue/Nuxt</li>
+          <li class="ml-8">CSS</li>
+          <li class="ml-8">Tailwind</li>
           <li class="ml-8">PL/SQL</li>
           <li class="ml-8">Git</li>
           <li class="ml-8">UML</li>
