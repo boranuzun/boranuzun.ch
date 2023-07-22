@@ -17,7 +17,7 @@
             >Contact</a
           >
           <a
-            href="https://kdrive.infomaniak.com/app/share/654236/d4794533-dea8-4873-8ad5-93127e59d297"
+            href="https://kdrive.infomaniak.com/app/share/654236/eb39bfcc-5022-4ac0-9b1a-b843f71af9e3"
             aria-label="Resume of Boran Uzun"
             target="_blank"
             class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-10 sm:px-4 rounded"
