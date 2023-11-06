@@ -11,7 +11,7 @@
         <p class="text-gray-600">IT Student</p>
         <div class="mt-6 flex flex-wrap gap-2 xl:gap-4 justify-center">
           <a
-            href="mailto:boran.u3@gmail.com"
+            href="mailto:contact@boranuzun.ch"
             aria-label="Email of Boran Uzun"
             class="bg-indigo-800 hover:bg-indigo-600 text-white py-2 px-10 sm:px-4 rounded"
             >Contact</a

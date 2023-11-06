@@ -2,7 +2,7 @@
 const links = [
   {
     name: "Email",
-    href: "mailto:boran.u3@gmail.com",
+    href: "mailto:contact@boranuzun.ch",
     icon: "material-symbols:mail",
   },
   {

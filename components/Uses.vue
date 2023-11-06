@@ -90,7 +90,7 @@
           <ul role="list" class="space-y-12">
             <li class="group relative flex flex-col items-start">
               <h3 class="font-semibold tracking-tight">
-                14” MacBook Pro • M1 Pro • 16GB RAM (2020)
+                14” MacBook Pro • M1 Pro • 16GB RAM (2021)
               </h3>
               <p class="mt-2 text-sm text-gray-600">
                 I was using a Lenovo laptop prior to this but the fan noise was
