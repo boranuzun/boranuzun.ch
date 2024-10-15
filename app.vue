@@ -34,13 +34,13 @@
         />
       </Head>
       <Body>
-        <SiteHeader />
+        <!-- <SiteHeader /> -->
         <main
           class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grow items-start w-full text-gray-900"
         >
           <NuxtPage />
         </main>
-        <SiteFooter />
+        <!-- <SiteFooter /> -->
       </Body>
     </div>
   </Html>
