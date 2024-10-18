@@ -16,20 +16,54 @@ useHead({
       <SiteBackground />
       <section class="flex flex-col items-center py-4">
         <h1 class="text-5xl font-bold mt-6">
-          <span class="inline-block mr-2 transition ease-in-out hover:scale-110 duration-300">⚙️</span>
+          <span class="inline-block mr-2 setting-wheel">
+            ⚙️
+          </span>
           <span class="inline-block">Under Maintenance</span>
         </h1>
         <p class="text-lg py-4 italic">
           We're currently making some improvements to the site. Please check
           back later!
         </p>
-        <!-- <img
-          src="../assets/images/maintenance.svg"
-          alt="Under Maintenance"
-          class="w-1/2 md:max-w-sm p-8 mx-auto pt-0 transition ease-in-out hover:scale-110 duration-300"
-        /> -->
         <p class="text-base mt-6">Thank you for your patience!</p>
       </section>
     </div>
   </div>
 </template>
+
+<style scoped>
+@keyframes spinAndZoomIn {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.2) rotate(360deg);
+  }
+}
+
+@keyframes spinAndZoomOut {
+  0% {
+    transform: scale(1.2) rotate(360deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.setting-wheel {
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+}
+
+.setting-wheel:hover {
+  animation: spinAndZoomIn 0.5s forwards;
+}
+
+.setting-wheel {
+  animation: spinAndZoomOut 0.5s forwards;
+}
+
+.setting-wheel:hover ~ .setting-wheel {
+  animation: none;
+}
+</style>
