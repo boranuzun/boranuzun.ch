@@ -1,5 +1,9 @@
 # Portfolio
 
+> ⚠️ ARCHIVED — This project is no longer maintained.
+>
+> Last updated: 1 November 2025
+
 This is my portfolio website built using Nuxt.js, Vue.js, Tailwind CSS, and Node.js.
 
 ## Description
@@ -12,7 +16,7 @@ This portfolio showcases my projects, skills, and experience as a web developer.
 - Project showcase using GitHub GraphQL API
 - Skills and experience sections
 - Blog section for sharing articles and insights
- 
+
 
 ## Installation
 
